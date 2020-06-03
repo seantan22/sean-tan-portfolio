@@ -21,22 +21,21 @@ export default class App extends React.Component {
           <div class="intro">
             <Intro />
           </div>
-          <About
-            id="about"
-            subtitle={dummyText}
-          />
-          <Experience
-            id="experience"
-            subtitle={dummyText}
-          />
-          <Projects
-            id="projects"
-            subtitle={dummyText}
-          />
-          <Contact
-            id="contact"
-          />
+          <div class="section">
+            <About id="about" />
+            <Experience
+              id="experience"
+              subtitle={dummyText}
+            />
+            <Projects
+              id="projects"
+              subtitle={dummyText}
+            />
+            <Contact
+              id="contact"
+            />
           </div>
+        </div>
       </div>
     )
   }

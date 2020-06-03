@@ -10,18 +10,11 @@ export default class NavBar extends React.Component {
         return (
             <nav class="navbar navbar-expand-lg">
                 <button 
-                    className="btn btn-white"
+                    className="btn"
                     alt="Logo"
                     onClick={this.scrollToTop}>
                         <h1>ST</h1>
                 </button>
-                <button class="navbar-toggler" 
-                        type="button" 
-                        data-toggle="collapse" 
-                        data-target="#navbarNavDropdown">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar">
                         <li className="nav-item">
                             <Link
@@ -29,7 +22,7 @@ export default class NavBar extends React.Component {
                                 to="about"
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+                                offset={-80}
                                 duration={500}>
                                     I | About
                             </Link>
@@ -40,7 +33,7 @@ export default class NavBar extends React.Component {
                                 to="experience"
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+                                offset={-80}
                                 duration={500}>
                                     II | Experience
                             </Link>
@@ -51,7 +44,7 @@ export default class NavBar extends React.Component {
                                 to="projects"
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+                                offset={-80}
                                 duration={500}>
                                     III | Projects
                             </Link>
@@ -62,16 +55,15 @@ export default class NavBar extends React.Component {
                                 to="contact"
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+                                offset={-80}
                                 duration={500}>
                                     IV | Contact
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <a class="btn btn-outline-primary" href="/">Resume</a>
+                            <a class="btn btn-outline-dark" href="/">Resume</a>
                         </li>
                     </ul>
-                </div>
             </nav>
         )
     }

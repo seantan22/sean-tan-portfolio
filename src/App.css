@@ -1,5 +1,5 @@
 .app {
-  text-align: center;
+  background-color: white;
 }
 
 .body {
@@ -8,6 +8,7 @@
   text-align: center;
 }
 
+/* NAVIGATION BAR */
 .nav {
   background-color: white;
   position: sticky;
@@ -18,42 +19,38 @@
   align-items: center;
 }
 
-.nav .nav-content {
-  max-width: 900px;
-  padding: 0rem 3rem;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-}
-
 .nav-item {
   display: inline;
   margin-left: 2rem;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0)
 }
 
 .nav-item:hover {
-  color: rgb(34, 192, 255);
+  color: #8860D0;
   cursor: pointer;
 }
 
+/* INTRO */
+.intro {
+  text-align: center;
+}
 .intro h1 {
   font-size: 100px;
   font-weight: lighter;
 }
-
 .intro h2 {
   font-size: 50px;
   font-weight: lighter;
 }
-
 .intro h6 {
   font-size: 30px;
   font-weight: lighter;
 }
-
 .intro p {
   font-size: 30px;
+  font-weight: lighter;
+}
+
+.section {
+    text-align: left;
 }

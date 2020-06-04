@@ -24,7 +24,7 @@ export default class NavBar extends React.Component {
                                 smooth={true}
                                 offset={-80}
                                 duration={500}>
-                                    I | About
+                                    | About
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -35,7 +35,7 @@ export default class NavBar extends React.Component {
                                 smooth={true}
                                 offset={-80}
                                 duration={500}>
-                                    II | Experience
+                                    | Experience
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -46,7 +46,7 @@ export default class NavBar extends React.Component {
                                 smooth={true}
                                 offset={-80}
                                 duration={500}>
-                                    III | Projects
+                                    | Projects
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -57,7 +57,7 @@ export default class NavBar extends React.Component {
                                 smooth={true}
                                 offset={-80}
                                 duration={500}>
-                                    IV | Contact
+                                    | Contact
                             </Link>
                         </li>
                         <li className="nav-item">

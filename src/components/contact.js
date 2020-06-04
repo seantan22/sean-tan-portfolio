@@ -10,9 +10,11 @@ export default function Contact({ id }) {
             <h5>Interested in learning more about my work?<br/>I'd love to hear from you!</h5>
           </div>
           <div class="col my-4 py-4">
-            <button class="btn btn-outline-dark btn-lg">
-              Contact Me
-            </button>
+            <a href="mailto:sean.tan@mail.mcgill.ca">
+              <button class="btn btn-outline-dark btn-lg">
+                Contact Me
+              </button>
+            </a>  
           </div>
         </div>
       </div>

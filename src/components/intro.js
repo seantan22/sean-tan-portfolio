@@ -9,9 +9,11 @@ export default class Intro extends React.Component {
                 <h2 class="mt-2">Welcome to my portfolio.</h2>
                 <h6 class="mt-5">I'm a software engineering student with a passion for developing powerful web applications.</h6>
                 <br></br>
-                <button class="btn btn-lg btn-outline-dark mt-5">
-                    Get in Touch
-                </button>
+                <a href="mailto:sean.tan@mail.mcgill.ca">
+                    <button class="btn btn-lg btn-outline-dark mt-5">
+                        Get in Touch
+                    </button>
+                </a>
             </div>
         )
     }

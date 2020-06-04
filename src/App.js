@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css'
 
 import NavBar from "./components/navbar"
+import Social from "./components/social"
 import Intro from "./components/intro"
 import About from "./components/about"
 import Experience from "./components/experience"
 import Projects from "./components/projects"
 import Contact from "./components/contact"
+import Footer from "./components/footer"
 
 import dummyText from "./DummyText";
 
@@ -17,6 +19,9 @@ export default class App extends React.Component {
         <div class="nav">
           <NavBar />
         </div>
+        <div class="social">
+            <Social />
+          </div>
         <div class="body">
           <div class="intro">
             <Intro />
@@ -31,9 +36,12 @@ export default class App extends React.Component {
               id="projects"
               subtitle={dummyText}
             />
-            <Contact
-              id="contact"
-            />
+          </div>
+          <div class="contact">
+            <Contact id="contact" />
+          </div>
+          <div class="footer">
+            <Footer />
           </div>
         </div>
       </div>

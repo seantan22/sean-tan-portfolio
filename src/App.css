@@ -1,5 +1,5 @@
 .app {
-  background-color: white;
+  background-color: rgb(242, 243, 255);
 }
 
 .body {
@@ -10,12 +10,11 @@
 
 /* NAVIGATION BAR */
 .nav {
-  background-color: white;
+  background-color: rgb(242, 243, 255);
   position: sticky;
   top: 0px;
   width: 100%;
   height: 70px;
-  box-shadow: 0 4px 14px 0 rgba(211, 226, 248, 0.774);
   align-items: center;
 }
 
@@ -26,8 +25,25 @@
 }
 
 .nav-item:hover {
-  color: #8860D0;
+  color: red;
   cursor: pointer;
+}
+
+/* SOCIAL */
+.social {
+  background-color: rgb(242, 243, 255);
+  position: sticky;
+  top: 70%;
+  width: 10px;
+  margin-left: 2%;
+}
+.social a {
+  color: black;
+  background-color: transparent;
+}
+.social a:hover {
+  color: red;
+  background-color: transparent;
 }
 
 /* INTRO */
@@ -51,6 +67,27 @@
   font-weight: lighter;
 }
 
+/* SECTION */
 .section {
-    text-align: left;
+  text-align: left;
+  padding: 40px;
+}
+.section h1 {
+  font-weight: lighter;
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+  padding: 40px;
+}
+.contact h1 {
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+/* FOOTER */
+.footer {
+  font-weight: lighter;
+  padding: 10px;
 }

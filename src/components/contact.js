@@ -11,7 +11,7 @@ export default function Contact({ id }) {
           </div>
           <div class="col my-5 py-5">
             <button class="btn btn-outline-dark">
-              Say Hello
+              Contact Me
             </button>
           </div>
         </div>

@@ -21,7 +21,7 @@ export default class App extends React.Component {
         </div>
         <div class="social">
             <Social />
-          </div>
+        </div>
         <div class="body">
           <div class="intro">
             <Intro />

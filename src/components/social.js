@@ -5,8 +5,12 @@ export default class Social extends React.Component {
         return (
             <div>
                 <ul>
-                    <a class="fab fa-github fa-lg mb-2" href="https://github.com/seantan22" />
-                    <a class="fab fa-linkedin-in fa-lg my-3" href="https://www.linkedin.com/in/seankltan/" />
+                    <a href="https://github.com/seantan22">
+                        <div class="fab fa-github fa-lg mb-2"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/seankltan/">
+                        <div class="fab fa-linkedin-in fa-lg my-3"/>
+                    </a>
                     <div class="vl ml-2"/>
                 </ul>
             </div>

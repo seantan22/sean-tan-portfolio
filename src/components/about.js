@@ -8,7 +8,7 @@ export default function About({ id }) {
         <h1>About</h1>
         <div class="row">
           <div class="col-7">
-            <p class="mt-3">Hello! I'm Sean, a fourth-year student at <a href=""></a>McGill University studying software engineering and aerospace engineering.</p>
+            <p class="mt-3">Hello! I'm Sean, a fourth-year student at McGill University studying software engineering and aerospace engineering.</p>
           </div>
           <div class="col-5">
             <img class="img-thumbnail img-responsive" src={headshot} alt="sean_headshot" width="300" height="auto"></img>

@@ -6,11 +6,13 @@ export default function Contact({ id }) {
       <div id={id}>
         <h1>Get In Touch</h1>
         <div class="row>">
-          <div class="col-4">
-            <h5 class="mt-5">Please feel free to reach out if you have any questions or would like to know more about me!</h5>
+          <div class="col mt-5 pt-5">
+            <h5>Interested in learning more about my work?<br/>I'd love to hear from you!</h5>
           </div>
-          <div class="col-8">
-            <h4>Email: sean.tan@mail.mcgill.ca</h4> 
+          <div class="col my-5 py-5">
+            <button class="btn btn-outline-dark">
+              Say Hello
+            </button>
           </div>
         </div>
       </div>

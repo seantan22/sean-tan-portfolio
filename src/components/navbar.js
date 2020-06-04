@@ -22,7 +22,7 @@ export default class NavBar extends React.Component {
                                 to="about"
                                 spy={true}
                                 smooth={true}
-                                offset={-80}
+                                offset={-75}
                                 duration={500}>
                                     | About
                             </Link>
@@ -33,7 +33,7 @@ export default class NavBar extends React.Component {
                                 to="experience"
                                 spy={true}
                                 smooth={true}
-                                offset={-80}
+                                offset={-75}
                                 duration={500}>
                                     | Experience
                             </Link>
@@ -44,7 +44,7 @@ export default class NavBar extends React.Component {
                                 to="projects"
                                 spy={true}
                                 smooth={true}
-                                offset={-80}
+                                offset={-75}
                                 duration={500}>
                                     | Projects
                             </Link>
@@ -55,7 +55,7 @@ export default class NavBar extends React.Component {
                                 to="contact"
                                 spy={true}
                                 smooth={true}
-                                offset={-80}
+                                offset={-75}
                                 duration={500}>
                                     | Contact
                             </Link>

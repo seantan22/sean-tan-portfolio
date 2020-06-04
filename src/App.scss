@@ -87,6 +87,28 @@
 .section h1 {
   font-weight: lighter;
 }
+.section h5 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+/* ABOUT */
+.about h2 {
+  font-size: 18px;
+  font-style: oblique;
+}
+.about h3 {
+  font-size: 16px;
+}
+.about h6 {
+  font-size: 14px;
+}
+.about img {
+  width: 100%;
+  border: 1px solid;
+  border-color: rgb(242, 243, 255);
+  border-radius: 10px;
+}
 
 /* CONTACT */
 .contact {
@@ -114,3 +136,15 @@
 .footer a:visited {
   color: black;
 }
+
+.projects img {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  border: 1px solid;
+  border-color: rgb(242, 243, 255);
+  border-radius: 10px;
+  padding: 2px;
+}
+
+@import "custom";

@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'
+import './App.scss'
 
 import NavBar from "./components/navbar"
 import Social from "./components/social"
@@ -27,12 +27,16 @@ export default class App extends React.Component {
             <Intro />
           </div>
           <div class="section">
-            <About id="about" />
+            <div class="about">
+              <About id="about" />
+            </div>
             <Experience
               id="experience"
               subtitle={dummyText}
             />
-            <Projects id="projects" />
+            <div class="projects">
+              <Projects id="projects" />
+            </div>
           </div>
           <div class="contact">
             <Contact id="contact" />

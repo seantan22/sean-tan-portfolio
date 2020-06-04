@@ -1,6 +1,6 @@
 import React from "react";
 import eth_pos from "./images/eth_pos_screenshot.png"
-import thebox from "./images/thebox.png"
+// import thebox from "./images/thebox.png"
 
 export default function Projects({ id }) {
   return (
@@ -9,11 +9,11 @@ export default function Projects({ id }) {
         <h1>Projects</h1>
           <div class="row">
             <div class="col-4">
-              <div class="card border-dark mb-3 mt-4">
+              <div class="card border-dark bg-secondary mb-3 mt-4">
                 <div class="card-header d-flex justify-content-center"><h5>ETHPOS</h5></div>
-                <img class="card-img-top" src={eth_pos} alt="Card image cap"></img>
+                <img class="card-img-top" src={eth_pos} alt="eth_pos"></img>
                   <div class="card-body text-dark">
-                    <p class="card-text">A web app to allow vendors to accept Ethereum or ERC-20 Token instantaneously. Pay using your mobile wallet, receive real-time USD-to-ETH conversion rates and send transactions over the Ethereum blockchain. </p>
+                    <p class="card-text">A web app for vendors to accept Ethereum or ERC-20 Token instantaneously. Pay using your mobile wallet, receive real-time USD-to-ETH conversion rates and send transactions over the Ethereum blockchain. </p>
                   </div>
                   <div class="card-footer d-flex justify-content-around">
                     <small class="text-muted">Solidity</small>
@@ -25,9 +25,9 @@ export default function Projects({ id }) {
               </div>
             </div>
             <div class="col-4">
-              <div class="card border-dark mb-3 mt-4">
+              <div class="card border-dark bg-secondary mb-3 mt-4">
                 <div class="card-header d-flex justify-content-center"><h5>The Box</h5></div>
-                <img class="card-img-top" src={thebox} alt="Card image cap"></img>
+                {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
                   <div class="card-body text-dark">
                     <p class="card-text">An autonomous search-and-rescue robot awarded first place recognition for McGill's Design Principles and Methods course. Fully equiped with localization, navigation and obstacle avoidance algorithms.</p>
                   </div>
@@ -38,15 +38,56 @@ export default function Projects({ id }) {
               </div>
             </div>
             <div class="col-4">
-              <div class="card border-dark mb-3 mt-4">
+              <div class="card border-dark bg-secondary mb-3 mt-4">
                 <div class="card-header d-flex justify-content-center"><h5>CoffeeRun</h5></div>
                 {/* <img class="card-img-top" src={} alt="Card image cap"></img> */}
                   <div class="card-body text-dark">
-                    <p class="card-text">A mobile app for the student community to make coffee runs simple and convenient. Order a beverage and have it delivered directly to your seat on campus. Earn points by retrieving beverages for your study buddies.</p>
+                    <p class="card-text">A mobile app for simple and convenient coffee runs. Order a beverage and have it delivered directly to your seat on campus. Earn points by retrieving beverages for your study buddies.</p>
                   </div>
                   <div class="card-footer d-flex justify-content-around">
                     <small class="text-muted">Swift</small>
                     <small class="text-muted">Javascript</small>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="card border-dark bg-secondary mb-3 mt-4">
+                <div class="card-header d-flex justify-content-center"><h5>Project Name</h5></div>
+                {/* <img class="card-img-top" src={eth_pos} alt="eth_pos"></img> */}
+                  <div class="card-body text-dark">
+                    <p class="card-text">Project Description </p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-around">
+                    <small class="text-muted">Language</small>
+                    <small class="text-muted">Framework</small>
+                  </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card border-dark bg-secondary mb-3 mt-4">
+                <div class="card-header d-flex justify-content-center"><h5>Project Name</h5></div>
+                {/* <img class="card-img-top" src={eth_pos} alt="eth_pos"></img> */}
+                  <div class="card-body text-dark">
+                    <p class="card-text">Project Description </p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-around">
+                    <small class="text-muted">Language</small>
+                    <small class="text-muted">Framework</small>
+                  </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card border-dark bg-secondary mb-3 mt-4">
+                <div class="card-header d-flex justify-content-center"><h5>Project Name</h5></div>
+                {/* <img class="card-img-top" src={eth_pos} alt="eth_pos"></img> */}
+                  <div class="card-body text-dark">
+                    <p class="card-text">Project Description </p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-around">
+                    <small class="text-muted">Language</small>
+                    <small class="text-muted">Framework</small>
                   </div>
               </div>
             </div>

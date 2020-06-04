@@ -101,5 +101,16 @@
 /* FOOTER */
 .footer {
   font-weight: lighter;
-  padding: 10px;
+  font-size: 16px;
+  padding: 20px;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.footer a:hover {
+  text-decoration: none;
+}
+.footer a:visited {
+  color: black;
 }

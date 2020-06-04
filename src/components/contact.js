@@ -9,8 +9,8 @@ export default function Contact({ id }) {
           <div class="col mt-5 pt-5">
             <h5>Interested in learning more about my work?<br/>I'd love to hear from you!</h5>
           </div>
-          <div class="col my-5 py-5">
-            <button class="btn btn-outline-dark">
+          <div class="col my-4 py-4">
+            <button class="btn btn-outline-dark btn-lg">
               Contact Me
             </button>
           </div>

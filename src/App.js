@@ -32,10 +32,7 @@ export default class App extends React.Component {
               id="experience"
               subtitle={dummyText}
             />
-            <Projects
-              id="projects"
-              subtitle={dummyText}
-            />
+            <Projects id="projects" />
           </div>
           <div class="contact">
             <Contact id="contact" />

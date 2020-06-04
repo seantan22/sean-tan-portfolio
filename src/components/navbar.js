@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, animateScroll as scroll } from "react-scroll";
+import navlogo from "./images/navlogo.png";
 
 export default class NavBar extends React.Component {
     scrollToTop = () => {
@@ -9,12 +10,12 @@ export default class NavBar extends React.Component {
     render() {
         return (
             <nav class="navbar navbar-expand-lg">
-                <button 
-                    className="btn"
+                <div
+                    type="button"
                     alt="Logo"
                     onClick={this.scrollToTop}>
-                        <h1>ST</h1>
-                </button>
+                        <img src={navlogo} alt="logo" width="100" height="auto"/>
+                </div>
                     <ul class="navbar">
                         <li className="nav-item">
                             <Link
@@ -24,7 +25,7 @@ export default class NavBar extends React.Component {
                                 smooth={true}
                                 offset={-75}
                                 duration={500}>
-                                    | About
+                                    About
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -35,7 +36,7 @@ export default class NavBar extends React.Component {
                                 smooth={true}
                                 offset={-75}
                                 duration={500}>
-                                    | Experience
+                                    Experience
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -46,7 +47,7 @@ export default class NavBar extends React.Component {
                                 smooth={true}
                                 offset={-75}
                                 duration={500}>
-                                    | Projects
+                                    Projects
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -57,7 +58,7 @@ export default class NavBar extends React.Component {
                                 smooth={true}
                                 offset={-75}
                                 duration={500}>
-                                    | Contact
+                                    Contact
                             </Link>
                         </li>
                         <li className="nav-item">

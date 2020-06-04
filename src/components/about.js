@@ -9,7 +9,7 @@ export default function About({ id }) {
         <div class="row">
           <div class="col-5">
             <p class="mt-3">Hello! I'm Sean, a fourth-year software engineering student based in Montréal, QC.</p>
-            <p>I enjoy building applications from scratch, taking apart existing applications to see how they work, as well as learning new languages and frameworks.</p>
+            <p>I enjoy building applications from scratch, taking apart existing applications to see how they work, as well as learning new languages and frameworks. I aim to produce work that is thought-out, impactful and distinct.</p>
             <p>When I'm not developing a new app, I stay busy with a variety of challenging activities like playing lacrosse for McGill's varsity team, designing sustainable tiny-homes, or digitaly mixing music.</p>
           </div>
           <div class="col-3">

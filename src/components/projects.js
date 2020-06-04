@@ -6,12 +6,13 @@ export default function Projects({ id }) {
   return (
     <div className="mt-5 section">
       <div className="section-content" id={id}>
-        <h1>Projects</h1>
+        <h1>Featured Projects</h1>
           <div class="row">
             <div class="col-4">
               <div class="card border-dark bg-secondary mb-3 mt-4">
                 <div class="card-header d-flex justify-content-center"><h5>ETHPOS</h5></div>
-                <img class="card-img-top" src={eth_pos} alt="eth_pos"></img>
+                <img class="card-img-top" src={eth_pos} alt="eth_pos">
+                </img>
                   <div class="card-body text-dark">
                     <p class="card-text">A web app for vendors to accept Ethereum or ERC-20 Token instantaneously. Pay using your mobile wallet, receive real-time USD-to-ETH conversion rates and send transactions over the Ethereum blockchain. </p>
                   </div>
@@ -29,7 +30,7 @@ export default function Projects({ id }) {
                 <div class="card-header d-flex justify-content-center"><h5>The Box</h5></div>
                 {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
                   <div class="card-body text-dark">
-                    <p class="card-text">An autonomous search-and-rescue robot awarded first place recognition for McGill's Design Principles and Methods course. Fully equiped with localization, navigation and obstacle avoidance algorithms.</p>
+                    <p class="card-text">An autonomous search-and-rescue robot awarded first place recognition in McGill's Design Principles and Methods course. Fully equiped with localization, navigation and obstacle avoidance algorithms.</p>
                   </div>
                   <div class="card-footer d-flex justify-content-around">
                     <small class="text-muted">Java</small>

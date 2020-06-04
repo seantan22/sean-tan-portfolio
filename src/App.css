@@ -39,16 +39,27 @@
 }
 .social a {
   color: black;
-  background-color: transparent;
+  left: 80%;
+  position: relative;
+  margin-bottom: -50px;
 }
 .social a:hover {
   color: red;
-  background-color: transparent;
+  top: -2px;
+  text-decoration: none;
+}
+.social a:visited {
+  color: black;
+}
+.vl {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 150px;
 }
 
 /* INTRO */
 .intro {
   text-align: center;
+  margin-top: -10%;
 }
 .intro h1 {
   font-size: 100px;

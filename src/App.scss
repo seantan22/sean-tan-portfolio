@@ -1,5 +1,5 @@
 $main-color: #f2f3ff;
-$hover-color: #ff0000;
+$link-hover-color: rgb(46, 180, 127);
 
 .app {
   background-color: $main-color;
@@ -15,7 +15,7 @@ $hover-color: #ff0000;
   color: black;
 }
 .fas:hover, .fab:hover {
-  color: $hover-color;
+  color: $link-hover-color;
 }
 
 
@@ -36,7 +36,7 @@ $hover-color: #ff0000;
 }
 
 .nav-item:hover {
-  color: $hover-color;
+  color: $link-hover-color;
   cursor: pointer;
 }
 
@@ -159,25 +159,31 @@ $hover-color: #ff0000;
   color: black;
 }
 
+/* VERTICAL TABS */
 .tab button {
-  display: block;
   background-color: inherit;
   padding: 12px 10px;
   width: 60%;
   border: none;
+  border-radius: 10px;
   outline: none;
   text-align: center;
   cursor: pointer;
   transition: 0.3s;
   font-size: 18px;
-  font-weight: lighter;
+  font-weight: 200;
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
 }
-
 .tab button:hover {
-  background-color: #c8cdfd;
-  border-radius: 5px;
+  background-color: #D2D6F4;
+  border-radius: 10px;
 }
-
+.tab button:focus {
+  outline: none;
+  background-color: #A8AABC;
+  color: white;
+}
 .tab-content {
   float: left;
   padding: 0px 12px;

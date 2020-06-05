@@ -6,9 +6,10 @@ export default class SideNav extends React.Component {
         this.state = {
             currentTab: 0,
             data: [
-            { id: "1", job: "Blockchain at McGill" , title: "Software Developer", year: "2019-Present", desc: "Description."},
-            { id: "2", job: "Snowdrop" , desc: "Description." },
-            { id: "3", job: "Company"  , desc: "Description."}
+            { id: "1", job: "Blockchain at McGill" , title: "Software Developer", year: "October 2019 - Present", desc: "Description."},
+            { id: "2", job: "Snowdrop" , title: "Position", year: "Date - Date",  desc: "Description." },
+            { id: "3", job: "Company"  , title: "Position", year: "Date - Date", desc: "Description."},
+            { id: "4", job: "Company"  , title: "Position", year: "Date - Date", desc: "Description."}
             ]
         };
         this.handleClick = this.handleClick.bind(this);
@@ -35,7 +36,7 @@ export default class SideNav extends React.Component {
                         <React.Fragment>
                             <h1>{this.state.data[this.state.currentTab].title} @ {this.state.data[this.state.currentTab].job}</h1>
                             <h2>{this.state.data[this.state.currentTab].year}</h2>
-                            <h3>{this.state.data[this.state.currentTab].desc}</h3>
+                            <h3 class="mt-5">{this.state.data[this.state.currentTab].desc}</h3>
                         </React.Fragment>
                     }
                 </div>

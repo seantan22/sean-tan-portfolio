@@ -1,5 +1,5 @@
 $main-color: #f2f3ff;
-$link-hover-color: rgb(46, 180, 127);
+$link-hover-color: rgb(0, 68, 177);
 
 .app {
   background-color: $main-color;
@@ -172,17 +172,17 @@ $link-hover-color: rgb(46, 180, 127);
   transition: 0.3s;
   font-size: 18px;
   font-weight: 200;
-  box-shadow: 0 0 16px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
   margin: 10px;
 }
 .tab button:hover {
-  background-color: #D2D6F4;
+  background-color: #668CF6;
   border-radius: 10px;
 }
 .tab button:focus {
   outline: none;
-  background-color: #A8AABC;
+  background-color: rgb(24, 82, 173);
   color: white;
+  font-weight: 300;
 }
 .tab-content {
   float: left;
@@ -199,7 +199,7 @@ $link-hover-color: rgb(46, 180, 127);
   font-weight: 300;
 }
 .tab-content h3 {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
 }
 

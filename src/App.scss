@@ -1,5 +1,8 @@
+$main-color: #f2f3ff;
+$hover-color: #ff0000;
+
 .app {
-  background-color: rgb(242, 243, 255);
+  background-color: $main-color;
 }
 
 .body {
@@ -8,10 +11,17 @@
   text-align: center;
 }
 
+.fas, .fab {
+  color: black;
+}
+.fas:hover, .fab:hover {
+  color: $hover-color;
+}
+
 
 /* NAVIGATION BAR */
 .nav {
-  background-color: rgb(242, 243, 255);
+  background-color: $main-color;
   position: sticky;
   top: 0px;
   width: 100%;
@@ -22,31 +32,28 @@
 .nav-item {
   display: inline;
   margin-left: 2rem;
-  color: rgb(0, 0, 0)
+  color: #000000
 }
 
 .nav-item:hover {
-  color: red;
+  color: $hover-color;
   cursor: pointer;
 }
 
 /* SOCIAL */
 .social {
-  background-color: rgb(242, 243, 255);
+  background-color: $main-color;
   position: sticky;
   top: 70%;
   width: 0px;
   margin-left: 2%;
 }
 .social a {
-  color: black;
   left: 80%;
   position: relative;
 }
 .social a:hover {
-  color: red;
   top: -2px;
-  text-decoration: none;
 }
 .social a:visited {
   color: black;
@@ -107,7 +114,7 @@
 .about img {
   width: 100%;
   border: 1px solid;
-  border-color: rgb(242, 243, 255);
+  border-color: $main-color;
   border-radius: 5px;
 }
 
@@ -138,14 +145,56 @@
   color: black;
 }
 
+/* PROJECTS */
 .projects img {
   width: 95%;
   margin-left: 2.5%;
   margin-right: 2.5%;
   border: 1px solid;
-  border-color: rgb(242, 243, 255);
+  border-color: $main-color;
   border-radius: 5px;
   padding: 2px;
+}
+.projects a:visited {
+  color: black;
+}
+
+.tab button {
+  display: block;
+  background-color: inherit;
+  padding: 12px 10px;
+  width: 60%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.tab button:hover {
+  background-color: #c8cdfd;
+  border-radius: 5px;
+}
+
+.tab-content {
+  float: left;
+  padding: 0px 12px;
+  width: 70%;
+  height: 300px;
+}
+.tab-content h1 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.tab-content h2 {
+  font-size: 16px;
+  font-weight: 300;
+}
+.tab-content h3 {
+  font-size: 12px;
+  font-weight: 300;
 }
 
 @import "custom";

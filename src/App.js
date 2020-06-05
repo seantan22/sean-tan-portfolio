@@ -10,8 +10,6 @@ import Projects from "./components/projects"
 import Contact from "./components/contact"
 import Footer from "./components/footer"
 
-import dummyText from "./DummyText";
-
 export default class App extends React.Component {
   render() {
     return (
@@ -30,10 +28,7 @@ export default class App extends React.Component {
             <div class="about">
               <About id="about" />
             </div>
-            <Experience
-              id="experience"
-              subtitle={dummyText}
-            />
+            <Experience id="experience" />
             <div class="projects">
               <Projects id="projects" />
             </div>

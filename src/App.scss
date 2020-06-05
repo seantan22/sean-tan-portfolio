@@ -15,7 +15,7 @@ $link-hover-color: rgb(0, 68, 177);
   color: black;
 }
 .fas:hover, .fab:hover {
-  color: $link-hover-color;
+  color: red;
 }
 
 
@@ -97,7 +97,7 @@ $link-hover-color: rgb(0, 68, 177);
 }
 .section h5 {
   font-size: 25px;
-  font-weight: lighter;
+  font-weight: 200;
 }
 
 /* ABOUT */
@@ -191,7 +191,7 @@ $link-hover-color: rgb(0, 68, 177);
   height: 300px;
 }
 .tab-content h1 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 300;
 }
 .tab-content h2 {

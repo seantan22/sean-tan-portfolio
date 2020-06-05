@@ -38,15 +38,26 @@ export default function Projects({ id }) {
             </div>
             <div class="col-4">
               <div class="card border-dark bg-secondary mb-3 mt-4">
-                <div class="card-header d-flex justify-content-center"><h5>The Box</h5></div>
+                <div class="row">
+                  <div class="col-8 d-flex justify-content-end">
+                    <div class="card-header d-flex justify-content-center">
+                      <h5>The Box</h5>
+                    </div>
+                  </div>
+                  <div class="col-4 d-flex align-items-center">
+                    <a href="https://github.com/Agent-Bennette/ECSE211_T14_PROJECT">
+                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
+                    </a>
+                  </div>
+                </div>
                 {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
-                  <div class="card-body text-dark">
-                    <p class="card-text">An autonomous search-and-rescue robot awarded first place recognition in McGill's Design Principles and Methods course. Fully equiped with localization, navigation and obstacle avoidance algorithms.</p>
-                  </div>
-                  <div class="card-footer d-flex justify-content-around">
-                    <small class="text-muted">Java</small>
-                    <small class="text-muted">leJOS</small>
-                  </div>
+                <div class="card-body text-dark">
+                  <p class="card-text">An autonomous search-and-rescue robot awarded first place recognition in McGill's Design Principles and Methods course. Fully equiped with localization, navigation and obstacle avoidance algorithms.</p>
+                </div>
+                <div class="card-footer d-flex justify-content-around">
+                  <small class="text-muted">Java</small>
+                  <small class="text-muted">leJOS</small>
+                </div>
               </div>
             </div>
             <div class="col-4">

@@ -10,7 +10,18 @@ export default function Projects({ id }) {
           <div class="row">
             <div class="col-4">
               <div class="card border-dark bg-secondary mb-3 mt-4">
-                <div class="card-header d-flex justify-content-center"><h5>ETHPOS</h5></div>
+                <div class="row">
+                  <div class="col-8 d-flex justify-content-end">
+                    <div class="card-header d-flex justify-content-center">
+                      <h5>ETHPOS</h5>
+                    </div>
+                  </div>
+                  <div class="col-4 d-flex align-items-center">
+                    <a href="https://github.com/BlockchainAtMcGill/eth_pos">
+                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
+                    </a>
+                  </div>
+                </div>
                 <img class="card-img-top" src={eth_pos} alt="eth_pos">
                 </img>
                   <div class="card-body text-dark">

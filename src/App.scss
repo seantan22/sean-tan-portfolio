@@ -104,12 +104,18 @@ $link-hover-color: rgb(0, 68, 177);
 .about h2 {
   font-size: 18px;
   font-style: oblique;
+  font-weight: 400;
 }
 .about h3 {
   font-size: 16px;
+  font-weight: 300;
 }
 .about h6 {
   font-size: 14px;
+  font-weight: 200;
+}
+.about p {
+  font-weight: 300;
 }
 .about img {
   width: 100%;
@@ -148,6 +154,7 @@ $link-hover-color: rgb(0, 68, 177);
 /* PROJECTS */
 .projects img {
   width: 95%;
+  height: 16rem;
   margin-left: 2.5%;
   margin-right: 2.5%;
   border: 1px solid;
@@ -164,8 +171,10 @@ $link-hover-color: rgb(0, 68, 177);
   background-color: inherit;
   padding: 12px 10px;
   width: 60%;
-  border: none;
-  border-radius: 10px;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left: solid 1px;
   outline: none;
   text-align: center;
   cursor: pointer;
@@ -175,14 +184,14 @@ $link-hover-color: rgb(0, 68, 177);
   margin: 10px;
 }
 .tab button:hover {
-  background-color: #668CF6;
-  border-radius: 10px;
+  color: white;
+  background-color:rgba(0, 0, 0, 0.795);
 }
 .tab button:focus {
-  outline: none;
-  background-color: rgb(24, 82, 173);
+  border:none;
   color: white;
-  font-weight: 300;
+  background-color:rgba(0, 0, 0, 0.795);
+  outline: none;
 }
 .tab-content {
   float: left;
@@ -202,5 +211,18 @@ $link-hover-color: rgb(0, 68, 177);
   font-size: 14px;
   font-weight: 300;
 }
+
+.right-divider {
+  border-right: solid 1px;
+}
+
+.experience h4 {
+  font-weight: 200;
+}
+.experience h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
 
 @import "custom";

@@ -28,7 +28,9 @@ export default class App extends React.Component {
             <div class="about">
               <About id="about" />
             </div>
-            <Experience id="experience" />
+            <div class="experience">
+              <Experience id="experience" />
+            </div>
             <div class="projects">
               <Projects id="projects" />
             </div>

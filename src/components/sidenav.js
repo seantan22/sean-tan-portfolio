@@ -6,8 +6,8 @@ export default class SideNav extends React.Component {
         this.state = {
             currentTab: 0,
             data: [
-            { id: "1", job: "Blockchain at McGill" , title: "Full-Stack Developer", year: "October 2019 - Present", desc: "Description."},
-            { id: "2", job: "Snowdrop" , title: "UI Developer", year: "Date - Date",  desc: "Description." },
+            { id: "1", job: "Snowdrop Architecture" , title: "Intern", year: "January 2020 - Present",  desc: "Optimizing the energy usage of a sustainable tiny-home by 60% through the integration of home automation techniques." },
+            { id: "2", job: "Blockchain at McGill" , title: "Software Design Team Member", year: "October 2019 - June 2020", desc: "Implemented a point-of-sale terminal enabling vendors to accept Ethereum or ERC-20 Tokens with a 95% success rate by    "},
             { id: "3", job: "Company"  , title: "Position", year: "Date - Date", desc: "Description."},
             { id: "4", job: "Company"  , title: "Position", year: "Date - Date", desc: "Description."}
             ]

@@ -36,7 +36,7 @@ export default class SideNav extends React.Component {
                         <React.Fragment>
                             <h1>{this.state.data[this.state.currentTab].title} @ {this.state.data[this.state.currentTab].job}</h1>
                             <h2>{this.state.data[this.state.currentTab].year}</h2>
-                            <h3 class="mt-5">{this.state.data[this.state.currentTab].desc}</h3>
+                            <p class="mt-5">{this.state.data[this.state.currentTab].desc}</p>
                         </React.Fragment>
                     }
                 </div>

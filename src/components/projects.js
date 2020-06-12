@@ -27,11 +27,11 @@ export default function Projects({ id }) {
                   <p class="card-text">A web app for vendors to accept Ethereum or ERC-20 Token instantaneously. Pay using your mobile wallet, receive real-time USD-to-ETH conversion rates and send transactions over the Ethereum blockchain. </p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
-                  <small class="text-muted">Solidity</small>
-                  <small class="text-muted">Ganache</small>
-                  <small class="text-muted">Node.js</small>
-                  <small class="text-muted">React</small>
-                  <small class="text-muted">Bootstrap</small>
+                  <p class="lang">Solidity</p>
+                  <p class="lang">Ganache</p>
+                  <p class="lang">Node.js</p>
+                  <p class="lang">React</p>
+                  <p class="lang">Bootstrap</p>
                 </div>
               </div>
             </div>
@@ -54,8 +54,9 @@ export default function Projects({ id }) {
                   <p class="card-text">An autonomous search-and-rescue robot awarded first place recognition in McGill's Design Principles and Methods course. Fully equiped with localization, navigation and obstacle avoidance algorithms.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
-                  <small class="text-muted">Java</small>
-                  <small class="text-muted">leJOS</small>
+                  <p class="lang">Java</p>
+                  <p class="lang">leJOS</p>
+                  <p class="lang">Lego Mindstorms</p>
                 </div>
               </div>
             </div>
@@ -87,7 +88,7 @@ export default function Projects({ id }) {
           <div class="row">
             <div class="col-4">
               <div class="card border-dark bg-secondary mb-3 mt-4">
-                <div class="card-header d-flex justify-content-center"><h5>SOLE SEEKER</h5></div>
+                <div class="card-header d-flex justify-content-center"><h5>SneakerBot</h5></div>
                 {/* <img class="card-img-top" src={eth_pos} alt="eth_pos"></img> */}
                   <div class="card-body text-dark">
                     <p class="card-text">Project Description </p>
@@ -100,7 +101,7 @@ export default function Projects({ id }) {
             </div>
             <div class="col-4">
               <div class="card border-dark bg-secondary mb-3 mt-4">
-                <div class="card-header d-flex justify-content-center"><h5>FACIAL RECOGNITION</h5></div>
+                <div class="card-header d-flex justify-content-center"><h5>Machine Learning Project #1</h5></div>
                 {/* <img class="card-img-top" src={eth_pos} alt="eth_pos"></img> */}
                   <div class="card-body text-dark">
                     <p class="card-text">Project Description </p>
@@ -113,7 +114,48 @@ export default function Projects({ id }) {
             </div>
             <div class="col-4">
               <div class="card border-dark bg-secondary mb-3 mt-4">
-                <div class="card-header d-flex justify-content-center"><h5>STOCK PREDICTOR</h5></div>
+                <div class="card-header d-flex justify-content-center"><h5>Machine Learning Project #2</h5></div>
+                {/* <img class="card-img-top" src={eth_pos} alt="eth_pos"></img> */}
+                  <div class="card-body text-dark">
+                    <p class="card-text">Project Description </p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-around">
+                    <small class="text-muted">Language</small>
+                    <small class="text-muted">Framework</small>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="card border-dark bg-secondary mb-3 mt-4">
+                <div class="card-header d-flex justify-content-center"><h5>Project Name</h5></div>
+                {/* <img class="card-img-top" src={eth_pos} alt="eth_pos"></img> */}
+                  <div class="card-body text-dark">
+                    <p class="card-text">Project Description </p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-around">
+                    <small class="text-muted">Language</small>
+                    <small class="text-muted">Framework</small>
+                  </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card border-dark bg-secondary mb-3 mt-4">
+                <div class="card-header d-flex justify-content-center"><h5>Project Name</h5></div>
+                {/* <img class="card-img-top" src={eth_pos} alt="eth_pos"></img> */}
+                  <div class="card-body text-dark">
+                    <p class="card-text">Project Description </p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-around">
+                    <small class="text-muted">Language</small>
+                    <small class="text-muted">Framework</small>
+                  </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card border-dark bg-secondary mb-3 mt-4">
+                <div class="card-header d-flex justify-content-center"><h5>Project Name</h5></div>
                 {/* <img class="card-img-top" src={eth_pos} alt="eth_pos"></img> */}
                   <div class="card-body text-dark">
                     <p class="card-text">Project Description </p>

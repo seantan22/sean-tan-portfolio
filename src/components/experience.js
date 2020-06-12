@@ -24,22 +24,47 @@ export default function Experience({ id }) {
           </div>
           <div class="col-4 cert">
             <div class="row d-flex justify-content-center">
+              <h5>Improving Deep Neural Networks</h5>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <h6>June 2020</h6>
+            </div>
+          </div>
+          <div class="col-4 cert">
+            <div class="row d-flex justify-content-center">
               <h5>Ethereum and Solidity</h5>
             </div>
             <div class="row d-flex justify-content-center">
               <h6>December 2019</h6>
             </div>
           </div>
+        </div>
+        <div class="row">
           <div class="col-4 cert">
             <div class="row d-flex justify-content-center">
-              <h5>Certificate</h5>
+              <h5>Name</h5>
             </div>
             <div class="row d-flex justify-content-center">
-              <h6>[Coming Soon]</h6>
+              <h6>[In Progress]</h6>
+            </div>
+          </div>
+          <div class="col-4 cert">
+            <div class="row d-flex justify-content-center">
+              <h5>Name</h5>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <h6>[In Progress]</h6>
+            </div>
+          </div>
+          <div class="col-4 cert">
+            <div class="row d-flex justify-content-center">
+              <h5>Name</h5>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <h6>[In Progress]</h6>
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );

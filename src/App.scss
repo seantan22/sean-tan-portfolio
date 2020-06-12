@@ -121,7 +121,8 @@ $link-hover-color: rgb(0, 68, 177);
   width: 100%;
   border: 1px solid;
   border-color: $main-color;
-  border-radius: 5px;
+  border-radius: 20%;
+  opacity: 95%;
 }
 
 /* CONTACT */
@@ -144,9 +145,6 @@ $link-hover-color: rgb(0, 68, 177);
   text-decoration: none;
   color: black;
 }
-.footer a:hover {
-  text-decoration: none;
-}
 .footer a:visited {
   color: black;
 }
@@ -164,6 +162,12 @@ $link-hover-color: rgb(0, 68, 177);
 }
 .projects a:visited {
   color: black;
+}
+.lang {
+  color: rgb(38, 75, 143);
+  font-weight: 600;
+  font-size: 12px;
+  margin: 1px;
 }
 
 /* VERTICAL TABS */
@@ -201,7 +205,7 @@ $link-hover-color: rgb(0, 68, 177);
 }
 .tab-content h1 {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .tab-content h2 {
   font-size: 16px;
@@ -226,7 +230,7 @@ $link-hover-color: rgb(0, 68, 177);
   border-radius: 5px;
 }
 .experience h3 {
-  font-size: 14px;
+  font-size: 18px;
 }
 .experience h4 {
   font-size: 26px;
@@ -242,7 +246,7 @@ $link-hover-color: rgb(0, 68, 177);
 }
 .experience p {
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 

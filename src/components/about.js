@@ -18,7 +18,6 @@ export default function About({ id }) {
             <p class="mt-3">Hello! I'm Sean, a fourth-year software engineering student-athlete at McGill University.</p>
             <p>I have over four years of experience building and developing applications from scratch, analyzing the inner workings of existing applications, as well as experimenting with new languages and frameworks. My interests include machine learning, . I aim to produce work that is creative, impactful and distinct.</p>
             <p>When I'm not tackling new challenges, I stay busy with a variety of up-tempo activities like playing lacrosse for McGill's varsity team, designing sustainable tiny-homes and digitaly mixing music.</p>
-            <p>When I'm not tackling new challenges, I stay busy with a variety of up-tempo activities like playing lacrosse for McGill's varsity team, designing sustainable tiny-homes and digitaly mixing music.</p>
           </div>
           <div class="col-3">
             <img class="img img-responsive" src={headshot} alt="sean_headshot" width="300" height="auto"></img>

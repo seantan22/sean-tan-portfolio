@@ -223,11 +223,13 @@ $link-hover-color: rgb(0, 68, 177);
 .cert {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  color: black
 }
 .cert:hover {
   color: white;
   background-color:rgba(0, 0, 0, 0.795);
   border-radius: 5px;
+  text-decoration: none;
 }
 .experience h3 {
   font-size: 18px;
@@ -237,11 +239,11 @@ $link-hover-color: rgb(0, 68, 177);
   font-weight: 200;
 }
 .experience h5 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
 }
 .experience h6 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 200;
 }
 .experience p {

@@ -163,6 +163,10 @@ $link-hover-color: rgb(0, 68, 177);
 .projects a:visited {
   color: black;
 }
+.desc {
+  font-size: 14px;
+  font-weight: 400;
+}
 .lang {
   color: rgb(38, 75, 143);
   font-weight: 600;
@@ -228,19 +232,18 @@ $link-hover-color: rgb(0, 68, 177);
 .cert:hover {
   color: white;
   background-color:rgba(0, 0, 0, 0.795);
-  border-radius: 5px;
   text-decoration: none;
 }
 .experience h3 {
   font-size: 18px;
 }
 .experience h4 {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 200;
 }
 .experience h5 {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 300;
 }
 .experience h6 {
   font-size: 14px;

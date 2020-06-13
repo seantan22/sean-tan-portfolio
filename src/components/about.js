@@ -15,9 +15,11 @@ export default function About({ id }) {
             <h6 class="mt-5 d-flex justify-content-end">CGPA: 3.15/4.00</h6>
           </div>
           <div class="col-5">
-            <p class="mt-3">Hello! I'm Sean, a fourth-year software engineering student-athlete at McGill University.</p>
-            <p>I have over four years of experience building and developing applications from scratch, analyzing the inner workings of existing applications, as well as experimenting with new languages and frameworks. My interests include machine learning, . I aim to produce work that is creative, impactful and distinct.</p>
-            <p>When I'm not tackling new challenges, I stay busy with a variety of up-tempo activities like playing lacrosse for McGill's varsity team, designing sustainable tiny-homes and digitaly mixing music.</p>
+            <p class="mt-3">Hello! I'm Sean, a fourth-year student at McGill University.</p>
+            <p>I'm an aspiring software engineer with over three years of experience building applications. My wide range of language and framework capabilities include:</p>
+            <p>Python, TensorFlow, React, C, and many more. </p>
+            <p>Fields that excite me include deep learning, IoT, & web and mobile development. My goal is to make impactful contributions in these areas by consistently striving to produce work that is creative, innovative and distinct.</p>
+            <p>Off screen, you'll find me participating in a variety of up-tempo activities like playing lacrosse for McGill's varsity team, designing sustainable tiny-homes and digitaly mixing music.</p>
           </div>
           <div class="col-3">
             <img class="img img-responsive" src={headshot} alt="sean_headshot" width="300" height="auto"></img>

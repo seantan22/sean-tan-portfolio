@@ -9,62 +9,57 @@ export default class NavBar extends React.Component {
 
     render() {
         return (
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-light navbar-expand-md flex-grow-1 text-right">
                 <div
-                    type="button"
-                    alt="Logo"
-                    onClick={this.scrollToTop}>
+                    type="button" alt="Logo" onClick={this.scrollToTop}>
                         <img src={navlogo} alt="logo" width="100" height="auto"/>
                 </div>
-                    <ul class="navbar">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto flex-nowrap mb-3">
                         <li className="nav-item">
                             <Link
-                                activeClass="active"
-                                to="about"
-                                spy={true}
-                                smooth={true}
-                                offset={-75}
-                                duration={500}>
+                                className="nav-link mx-3"
+                                activeClass="active" to="about"
+                                spy={true} smooth={true}
+                                offset={-75} duration={500}>
                                     About
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link
-                                activeClass="active"
-                                to="experience"
-                                spy={true}
-                                smooth={true}
-                                offset={-75}
-                                duration={500}>
+                                className="nav-link mx-3"
+                                activeClass="active" to="experience"
+                                spy={true} smooth={true}
+                                offset={-75} duration={500}>
                                     Experience
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link
-                                activeClass="active"
-                                to="projects"
-                                spy={true}
-                                smooth={true}
-                                offset={-75}
-                                duration={500}>
+                                className="nav-link mx-3"
+                                activeClass="active" to="projects"
+                                spy={true} smooth={true}
+                                offset={-75} duration={500}>
                                     Projects
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link
-                                activeClass="active"
-                                to="contact"
-                                spy={true}
-                                smooth={true}
-                                offset={-75}
-                                duration={500}>
+                                className="nav-link mx-3"
+                                activeClass="active" to="contact"
+                                spy={true} smooth={true}
+                                offset={-75} duration={500}>
                                     Contact
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <a class="btn btn-outline-dark" href="/">Resume</a>
+                            <a class="nav-link mx-3 mb-3 resume" href="/"><i class="fas fa-download"></i> Resume</a>
                         </li>
                     </ul>
+                </div>
             </nav>
         )
     }

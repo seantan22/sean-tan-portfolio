@@ -27,6 +27,13 @@ $link-hover-color: rgb(0, 68, 177);
   z-index: 9999;
 }
 
+.navbar-nav {
+  background-color: #f2f3ffcb;
+  .fas:hover {
+    color:black;
+  }
+}
+
 /* SOCIAL */
 .social {
   background-color: $main-color;
@@ -183,7 +190,7 @@ $link-hover-color: rgb(0, 68, 177);
   background-color:rgba(0, 0, 0, 0.795);
 }
 .tab button:focus {
-  border:none;
+  border: none;
   color: white;
   background-color:rgba(0, 0, 0, 0.795);
   outline: none;

@@ -3,4 +3,13 @@ $secondary: rgb(242, 243, 255);
 $card-cap-bg: rgb(242, 243, 255);
 $card-border-color: rgb(242, 243, 255);
 
+$navbar-light-color: rgb(78, 78, 78);
+$navbar-light-toggler-border-color: $secondary;
+$navbar-toggler-border-radius: 20%;
+
+$navbar-light-color:                black;
+$navbar-light-hover-color:          rgb(62, 51, 192);
+$navbar-light-active-color:         rgb(62, 51, 192);
+$navbar-light-toggler-border-color: rgba($black, .1) !default;
+
 @import "node_modules/bootstrap/scss/bootstrap";

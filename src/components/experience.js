@@ -4,7 +4,7 @@ import Certifications from"./certs"
 
 export default function Experience({ id }) {
   return (
-    <div class="mt-5 section">
+    <div class="experience mt-5 section">
       <div class="section-content" id={id}>
         <h1>Experience</h1>
         <div class="row mt-5 d-flex justify-content-center">

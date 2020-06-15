@@ -3,7 +3,7 @@ import headshot from "./images/sean_headshot_bg.png";
 
 export default function About({ id }) {
   return (
-    <div class="mt-5 container">
+    <div class="about mt-5 container">
       <div id={id}>
         <h1>About Me</h1>
         <div class="row d-flex justify-content-center">
@@ -16,8 +16,7 @@ export default function About({ id }) {
           </div>
           <div class="col-md-6 col-lg-5">
             <p class="mt-3">Hello! I'm Sean, a fourth-year student at McGill University.</p>
-            <p>I'm an aspiring software engineer with over three years of experience in building applications. My diverse language and framework skillset includes:</p>
-            <p>Python, TensorFlow, React, C, and many more. </p>
+            <p>I'm an aspiring software engineer with over three years of experience in building applications. I've worked with a diverse set of languages and frameworks that includes: Python, C, Java, TensorFlow, React, and many more. </p>
             <p>Fields that excite me include deep learning, IoT, & web and mobile development. My goal is to make impactful contributions in these areas by consistently striving to produce work that is creative, innovative and distinct.</p>
             <p>Off screen, you'll find me participating in a variety of up-tempo activities like playing lacrosse for McGill's varsity team, designing sustainable tiny-homes and digitaly mixing music.</p>
           </div>

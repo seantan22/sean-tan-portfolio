@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact({ id }) {
   return (
-    <div className="mt-5">
+    <div className="contact mt-5">
       <div id={id}>
         <h1>Get In Touch</h1>
         <div class="row>">

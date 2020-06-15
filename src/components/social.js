@@ -3,7 +3,7 @@ import React from 'react'
 export default class Social extends React.Component {
     render() {
         return (
-            <div>
+            <div class="social">
                 <ul>
                     <a href="https://github.com/seantan22" target="_blank" rel="noopener noreferrer">
                         <div class="fab fa-github fa-lg mb-2"/>

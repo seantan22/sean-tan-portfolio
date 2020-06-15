@@ -4,7 +4,7 @@ import thebox from "./images/thebox.png"
 
 export default function Projects({ id }) {
   return (
-    <div className="container mt-5 section">
+    <div className="projects container mt-5 section">
       <div className="section-content" id={id}>
         <h1>Featured Projects</h1>
           <div class="row">

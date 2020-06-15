@@ -14,33 +14,17 @@ export default class App extends React.Component {
   render() {
     return (
       <div class="app">
-        <div class="nav">
           <NavBar />
-        </div>
-        <div class="social">
-            <Social />
-        </div>
+          <Social />
         <div class="body">
-          <div class="intro">
             <Intro />
-          </div>
           <div class="section">
-            <div class="about">
               <About id="about" />
-            </div>
-            <div class="experience">
               <Experience id="experience" />
-            </div>
-            <div class="projects">
               <Projects id="projects" />
-            </div>
           </div>
-          <div class="contact">
             <Contact id="contact" />
-          </div>
-          <div class="footer">
             <Footer />
-          </div>
         </div>
       </div>
     )

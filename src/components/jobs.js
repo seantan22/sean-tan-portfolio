@@ -26,7 +26,7 @@ export default class Jobs extends React.Component {
     render() {
         return (
             <div class="row mt-5 ml-5">
-                <div class="col-5 tab">
+                <div class="col-md-5 tab">
                     {this.state.data.map((button, i) => (
                         <button key={button.job} 
                                 class="tab-links" 
@@ -35,7 +35,7 @@ export default class Jobs extends React.Component {
                         </button>
                     ))}
                 </div>
-                <div class="col-7 tab-content">
+                <div class="col-md-7 mt-4 tab-content">
                     {this.state.currentTab !== -1 &&
                         <React.Fragment>
                             <h1>{this.state.data[this.state.currentTab].title} @ {this.state.data[this.state.currentTab].job}</h1>

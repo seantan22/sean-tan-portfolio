@@ -8,7 +8,7 @@ export default function Experience({ id }) {
       <div class="section-content" id={id}>
         <h1>Experience</h1>
         <div class="row mt-5 d-flex justify-content-center">
-          <h3> Currently available for a software development/engineering internship position from June 2020-August 2020.</h3>
+          <h3> Currently searching for a software development/engineering internship role from June 2020 - August 2020.</h3>
         </div>
         <Jobs />
         <Certifications />

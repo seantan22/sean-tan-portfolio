@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/seantan.software/static/css/main.ca18d8ec.chunk.css",
+    "main.js": "/seantan.software/static/js/main.bef1500f.chunk.js",
+    "main.js.map": "/seantan.software/static/js/main.bef1500f.chunk.js.map",
+    "runtime-main.js": "/seantan.software/static/js/runtime-main.8c8a3293.js",
+    "runtime-main.js.map": "/seantan.software/static/js/runtime-main.8c8a3293.js.map",
+    "static/js/2.4b4483ca.chunk.js": "/seantan.software/static/js/2.4b4483ca.chunk.js",
+    "static/js/2.4b4483ca.chunk.js.map": "/seantan.software/static/js/2.4b4483ca.chunk.js.map",
+    "index.html": "/seantan.software/index.html",
+    "precache-manifest.1f4398e93437b730d0c0ea5be41d774c.js": "/seantan.software/precache-manifest.1f4398e93437b730d0c0ea5be41d774c.js",
+    "service-worker.js": "/seantan.software/service-worker.js",
+    "static/css/main.ca18d8ec.chunk.css.map": "/seantan.software/static/css/main.ca18d8ec.chunk.css.map",
+    "static/js/2.4b4483ca.chunk.js.LICENSE.txt": "/seantan.software/static/js/2.4b4483ca.chunk.js.LICENSE.txt",
+    "static/media/eth_pos_screenshot.png": "/seantan.software/static/media/eth_pos_screenshot.ad2d70c5.png",
+    "static/media/navlogo.png": "/seantan.software/static/media/navlogo.31e04381.png",
+    "static/media/sean_headshot_bg.png": "/seantan.software/static/media/sean_headshot_bg.c43e8789.png",
+    "static/media/thebox.png": "/seantan.software/static/media/thebox.7a195507.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c8a3293.js",
+    "static/js/2.4b4483ca.chunk.js",
+    "static/css/main.ca18d8ec.chunk.css",
+    "static/js/main.bef1500f.chunk.js"
+  ]
+}

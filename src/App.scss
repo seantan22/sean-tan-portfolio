@@ -53,6 +53,18 @@ $link-hover-color: rgb(0, 68, 177);
   color: black;
 }
 
+/* EMAIL */
+.email {
+  transition: all 2s;
+}
+.email:hover span {
+  display: none;
+}
+.email:hover:before {
+  content:"sean.tan@mail.mcgill.ca";
+  font-weight: 200;
+}
+
 /* VERTICAL LINE */
 .vl {
   border-left: 1px solid rgb(0, 0, 0);
@@ -167,6 +179,14 @@ $link-hover-color: rgb(0, 68, 177);
   font-size: 12px;
   margin: 1px;
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card:hover {
+  top: -10px;
+  transition: all 2s;
+}
+
 
 /* VERTICAL TABS */
 .tab button {

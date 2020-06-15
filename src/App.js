@@ -14,17 +14,17 @@ export default class App extends React.Component {
   render() {
     return (
       <div class="app">
-          <NavBar />
-          <Social />
+        <NavBar />
+        <Social />
         <div class="body">
-            <Intro />
-          <div class="section">
+          <Intro />
+          <div class="content">
               <About id="about" />
               <Experience id="experience" />
               <Projects id="projects" />
           </div>
-            <Contact id="contact" />
-            <Footer />
+          <Contact id="contact" />
+          <Footer />
         </div>
       </div>
     )

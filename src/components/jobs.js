@@ -38,8 +38,8 @@ export default class Jobs extends React.Component {
                 <div class="col-md-7 mt-4 tab-content">
                     {this.state.currentTab !== -1 &&
                         <React.Fragment>
-                            <h1>{this.state.data[this.state.currentTab].title} @ {this.state.data[this.state.currentTab].job}</h1>
-                            <h2>{this.state.data[this.state.currentTab].year}</h2>
+                            <h4>{this.state.data[this.state.currentTab].title} @ {this.state.data[this.state.currentTab].job}</h4>
+                            <h6>{this.state.data[this.state.currentTab].year}</h6>
                             <p class="mt-3">{this.state.data[this.state.currentTab].desc}</p>
                             <a href="#">{this.state.data[this.state.currentTab].link}</a>
                         </React.Fragment>

@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Contact({ id }) {
   return (
-    <div className="contact mt-5">
+    <div className="container contact mt-5">
       <div id={id}>
-        <h1>Get In Touch</h1>
+        <h2>Get In Touch</h2>
         <div class="row>">
           <div class="col mt-5 pt-5">
-            <h5>Interested in learning more about my work?<br/>I'd love to hear from you!</h5>
+            <h5 style={{fontWeight:'500'}}>Interested in learning more about my work?<br/>I'd love to hear from you!</h5>
           </div>
           <div class="col my-4 py-4">
             <a href="mailto:sean.tan@mail.mcgill.ca">

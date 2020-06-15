@@ -3,21 +3,70 @@
 $main-color: #f2f3ff;
 $link-hover-color: rgb(0, 68, 177);
 
+/* APP */
 .app {
   background-color: $main-color;
+  h1 {font-size: 100px; font-weight: lighter;}
+  h2 {font-size: 50px; font-weight: lighter;}
+  h3 {font-size: 40px; font-weight: lighter;}
+  h4 {font-size: 30px; font-weight: 200;}
+  h5 {font-size: 18px; font-weight: 350;}
+  h6 {font-size: 16px; font-weight: 300; margin-bottom: 20px;}
+  p {font-size: 14px; font-weight: 400;}
+  small {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(38, 75, 143);
+    margin: 1px;
+  }
 }
+
+/* SECTION MARGINS & ALIGNMENT */
 .body {
   margin-left: 5%;
   margin-right: 5%;
   text-align: center;
 }
+.intro {
+  margin-top: -10%;
+}
+.content {
+  text-align: left;
+  padding: 40px;
+}
+.contact {
+  text-align: center;
+  padding: 40px;
+}
+.footer {
+  padding: 10px;
+}
 
 /* ICONS */
 .fas, .fab {
   color: black;
+  &:hover {
+    color: red;
+  }
 }
-.fas:hover, .fab:hover {
-  color: red;
+
+/* LINES */
+.right-divider {
+  border-right: solid 1px;
+}
+.vl {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 150px;
+}
+
+/* LINKS */
+a:visited {
+  color: black;
+}
+/* FOOTER LINK */
+.footer a {
+  text-decoration: none;
+  color: black;
 }
 
 /* NAVBAR */
@@ -47,12 +96,10 @@ $link-hover-color: rgb(0, 68, 177);
 .social a {
   left: 80%;
   position: relative;
+  top: 0px;
 }
 .social a:hover {
   top: -2px;
-}
-.social a:visited {
-  color: black;
 }
 
 /* EMAIL */
@@ -67,90 +114,13 @@ $link-hover-color: rgb(0, 68, 177);
   font-weight: 200;
 }
 
-/* VERTICAL LINE */
-.vl {
-  border-left: 1px solid rgb(0, 0, 0);
-  height: 150px;
-}
-
-/* INTRO */
-.intro {
-  text-align: center;
-  margin-top: -10%;
-}
-.intro h1 {
-  font-size: 100px;
-  font-weight: lighter;
-}
-.intro h2 {
-  font-size: 50px;
-  font-weight: lighter;
-}
-.intro h6 {
-  font-size: 30px;
-  font-weight: lighter;
-}
-.intro p {
-  font-size: 30px;
-  font-weight: lighter;
-}
-
-/* SECTION */
-.section {
-  text-align: left;
-  padding: 40px;
-}
-.section h1 {
-  font-weight: lighter;
-}
-
-/* ABOUT */
-.about h2 {
-  font-size: 18px;
-  font-style: oblique;
-  font-weight: 400;
-}
-.about h3 {
-  font-size: 16px;
-  font-weight: 300;
-}
-.about h6 {
-  font-size: 14px;
-  font-weight: 200;
-}
-.about p {
-  font-weight: 300;
-}
-.about img {
+/* PROFILE PICTURE */
+.prof-pic {
   width: 100%;
   border: 1px solid;
   border-color: $main-color;
   border-radius: 20%;
   opacity: 95%;
-}
-
-/* CONTACT */
-.contact {
-  text-align: center;
-  padding: 40px;
-}
-.contact h1 {
-  font-size: 50px;
-  font-weight: lighter;
-}
-
-/* FOOTER */
-.footer {
-  font-weight: lighter;
-  font-size: 16px;
-  padding: 20px;
-}
-.footer a {
-  text-decoration: none;
-  color: black;
-}
-.footer a:visited {
-  color: black;
 }
 
 /* PROJECTS */
@@ -164,32 +134,14 @@ $link-hover-color: rgb(0, 68, 177);
   border-radius: 5px;
   padding: 2px;
 }
-.projects a:visited {
-  color: black;
-}
-.projects h5 {
-  font-weight: 300;
-  font-size: 25px;
-}
-.desc {
-  font-size: 14px;
-  font-weight: 400;
-}
-.lang {
-  color: rgb(38, 75, 143);
-  font-weight: 600;
-  font-size: 12px;
-  margin: 1px;
-}
 .card {
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   top: 0px;
+  &:hover {
+    top: -10px;
+    transition: all 0.2s;
+  }
 }
-.card:hover {
-  top: -10px;
-  transition: all 0.2s;
-}
-
 
 /* VERTICAL TABS */
 .tab button {
@@ -207,16 +159,16 @@ $link-hover-color: rgb(0, 68, 177);
   font-size: 18px;
   font-weight: 200;
   margin: 10px;
-}
-.tab button:hover {
-  color: white;
-  background-color:rgba(0, 0, 0, 0.795);
-}
-.tab button:focus {
-  border: none;
-  color: white;
-  background-color:rgba(0, 0, 0, 0.795);
-  outline: none;
+  &:hover {
+    color: white;
+    background-color:rgba(0, 0, 0, 0.795);
+  }
+  &:focus {
+    border: none;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.795);
+    outline: none;
+  }
 }
 .tab-content {
   float: left;
@@ -224,57 +176,22 @@ $link-hover-color: rgb(0, 68, 177);
   width: 70%;
   height: 300px;;
 }
-.tab-content h1 {
-  font-size: 24px;
-  font-weight: 400;
-}
-.tab-content h2 {
-  font-size: 16px;
-  font-weight: 300;
-}
-.tab-content h3 {
-  font-size: 14px;
-  font-weight: 300;
-}
-
-.right-divider {
-  border-right: solid 1px;
-}
 
 /* CERTIFICATIONS */
 .cert {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  color: black
-}
-.cert:hover {
   color: black;
-  // background-color:rgba(0, 0, 0, 0.795);
-  text-decoration: none;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: 0.2s;
-  border-radius: 2%;
-}
-
-.experience h3 {
-  font-size: 18px;
-  font-style: oblique;
-}
-.experience h4 {
-  font-size: 30px;
-  font-weight: 200;
-}
-.experience h5 {
-  font-size: 18px;
-  font-weight: 300;
-}
-.experience h6 {
-  font-size: 14px;
-  font-weight: 200;
-}
-.experience p {
-  font-size: 16px;
-  font-weight: 300;
+  h5 {
+    font-weight: 300;
+  }
+  &:hover {
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.2s;
+    border-radius: 2%;
+  }
 }
 
 @import "custom";

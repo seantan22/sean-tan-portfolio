@@ -9,7 +9,7 @@ export default function Projects({ id }) {
         <h1>Featured Projects</h1>
           <div class="row">
             <div class="col-md-6 col-xl-4">
-              <div class="card border-dark bg-secondary mb-3 mt-4">
+              <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
                       <h5>ETHPOS</h5>
@@ -32,7 +32,7 @@ export default function Projects({ id }) {
               </div>
             </div>
             <div class="col-md-6 col-xl-4">
-              <div class="card border-dark bg-secondary mb-3 mt-4">
+              <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
                       <h5>The Box</h5>
@@ -53,7 +53,7 @@ export default function Projects({ id }) {
               </div>
             </div>
             <div class="col-md-6 col-xl-4">
-              <div class="card border-dark bg-secondary mb-3 mt-4">
+              <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
                       <h5>CoffeeRun</h5>
@@ -73,7 +73,7 @@ export default function Projects({ id }) {
               </div>
             </div>
             <div class="col-md-6 col-xl-4">
-              <div class="card border-dark bg-secondary mb-3 mt-4">
+              <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
                       <h5>Portfolio Site</h5>
@@ -96,7 +96,7 @@ export default function Projects({ id }) {
               </div>
             </div>
             <div class="col-md-6 col-xl-4">
-              <div class="card border-dark bg-secondary mb-3 mt-4">
+              <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
                       <h5>Project Name</h5>
@@ -116,7 +116,7 @@ export default function Projects({ id }) {
               </div>
             </div>
             <div class="col-md-6 col-xl-4">
-              <div class="card border-dark bg-secondary mb-3 mt-4">
+              <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
                       <h5>Project Name</h5>
@@ -136,7 +136,7 @@ export default function Projects({ id }) {
               </div>
             </div>
             <div class="col-md-6 col-xl-4">
-              <div class="card border-dark bg-secondary mb-3 mt-4">
+              <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
                       <h5>Project Name</h5>
@@ -156,7 +156,7 @@ export default function Projects({ id }) {
               </div>
             </div>
             <div class="col-md-6 col-xl-4">
-              <div class="card border-dark bg-secondary mb-3 mt-4">
+              <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
                       <h5>Project Name</h5>
@@ -176,7 +176,7 @@ export default function Projects({ id }) {
               </div>
             </div>
             <div class="col-md-6 col-xl-4">
-              <div class="card border-dark bg-secondary mb-3 mt-4">
+              <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
                       <h5>Project Name</h5>

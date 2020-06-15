@@ -1,16 +1,18 @@
+
+/* COLORS */
 $main-color: #f2f3ff;
 $link-hover-color: rgb(0, 68, 177);
 
 .app {
   background-color: $main-color;
 }
-
 .body {
   margin-left: 5%;
   margin-right: 5%;
   text-align: center;
 }
 
+/* ICONS */
 .fas, .fab {
   color: black;
 }
@@ -18,6 +20,7 @@ $link-hover-color: rgb(0, 68, 177);
   color: red;
 }
 
+/* NAVBAR */
 .nav {
   background-color: $main-color;
   position: sticky;
@@ -26,7 +29,6 @@ $link-hover-color: rgb(0, 68, 177);
   height: 70px;
   z-index: 9999;
 }
-
 .navbar-nav {
   background-color: #f2f3ffcb;
   .fas:hover {
@@ -34,7 +36,7 @@ $link-hover-color: rgb(0, 68, 177);
   }
 }
 
-/* SOCIAL */
+/* SOCIAL LINKS */
 .social {
   background-color: $main-color;
   position: sticky;
@@ -169,6 +171,9 @@ $link-hover-color: rgb(0, 68, 177);
 .projects a:visited {
   color: black;
 }
+.projects h5 {
+  font-weight: 300;
+}
 .desc {
   font-size: 14px;
   font-weight: 400;
@@ -180,11 +185,12 @@ $link-hover-color: rgb(0, 68, 177);
   margin: 1px;
 }
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  top: 0px;
 }
 .card:hover {
   top: -10px;
-  transition: all 2s;
+  transition: all 0.2s;
 }
 
 
@@ -238,16 +244,21 @@ $link-hover-color: rgb(0, 68, 177);
   border-right: solid 1px;
 }
 
+/* CERTIFICATIONS */
 .cert {
   margin-top: 2rem;
   margin-bottom: 2rem;
   color: black
 }
 .cert:hover {
-  color: white;
-  background-color:rgba(0, 0, 0, 0.795);
+  color: black;
+  // background-color:rgba(0, 0, 0, 0.795);
   text-decoration: none;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.2s;
+  border-radius: 2%;
 }
+
 .experience h3 {
   font-size: 18px;
   font-style: oblique;

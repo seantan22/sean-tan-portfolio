@@ -1,1 +1,1 @@
-Hi! Welcome to the repository for my portfolio. This project was built with Node.js, React, Bootstrap and SCSS.
+Hi! Welcome to the repository for my website portfolio. Built with Node.js, React, Bootstrap CSS and SCSS. Hosted on GitHub Pages.

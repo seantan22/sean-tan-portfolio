@@ -6,12 +6,14 @@ export default class Intro extends React.Component {
             <div>
                 <p>Hi, my name is</p>
                 <h1 class="mt-1">SEAN TAN.</h1>
-                <h2 class="mt-2">Welcome to my portfolio.</h2>
-                <h6 class="mt-5">I'm a software engineering student with a passion for developing powerful applications.</h6>
+                <h2 class="mt-2">I build things for tomorrow.</h2>
+                <h6 class="mt-5">I'm a software engineering student with a passion for developing high performance applications.</h6>
                 <br></br>
                 <a href="mailto:sean.tan@mail.mcgill.ca">
-                    <button class="btn btn-lg btn-outline-dark mt-5">
-                        Get in Touch
+                    <button class="btn btn-lg btn-outline-dark mt-5 email">
+                        <span>
+                            Get in Touch
+                        </span>
                     </button>
                 </a>
             </div>

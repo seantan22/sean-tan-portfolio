@@ -84,7 +84,7 @@ export default function Projects({ id }) {
                 </div>
                 {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
                 <div class="card-body text-dark">
-                  <p class="card-text desc">First iteration of a single-page web application created to highlight my work and aspirations. Utilized Bootstrap to ensure page responsiveness and promote smooth navigatability. Entirely designed and constructed from scratch with React & hosted on GitHub Pages.</p>
+                  <p class="card-text desc">First iteration of a single-page web application created to highlight my work and professional goals. Utilized Bootstrap to ensure page responsiveness and promote smooth navigatability. Entirely designed and constructed from scratch using React. Hosted on GitHub Pages.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <p class="lang">React</p>

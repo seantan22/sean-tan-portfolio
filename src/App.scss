@@ -1,7 +1,11 @@
-
 /* COLORS */
 $main-color: #f2f3ff;
 $link-hover-color: rgb(0, 68, 177);
+
+.loading {
+  background-color: $main-color;
+  height: 100vh;
+}
 
 /* APP */
 .app {

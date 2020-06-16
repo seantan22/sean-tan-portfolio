@@ -21,7 +21,7 @@ export default function About({ id }) {
             <h6>Off screen, you'll find me participating in a variety of up-tempo activities like playing lacrosse for McGill's varsity team, designing sustainable tiny-homes and digitaly mixing music.</h6>
           </div>
           <div class="col-sm-8 col-md-6 col-lg-3">
-              <img class="img img-fluid prof-pic" src={headshot} alt="sean_headshot"></img>
+              <img class="img img-fluid prof-pic" src={headshot} alt="sean_headshot"/>
           </div>
         </div>
       </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.scss'
 
 import NavBar from "./components/navbar"
 import Social from "./components/social"

@@ -9,6 +9,11 @@ import Projects from "./components/projects"
 import Contact from "./components/contact"
 import Footer from "./components/footer"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
+
 export default class App extends React.Component {
   render() {
     return (

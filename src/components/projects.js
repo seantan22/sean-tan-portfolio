@@ -84,7 +84,7 @@ export default function Projects({ id }) {
                 </div>
                 {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
                 <div class="card-body text-dark">
-                  <p class="card-text">First iteration of a single-page web application created to highlight my work and professional goals. Utilized Bootstrap to ensure page responsiveness and promote smooth navigatability. Entirely designed and constructed from scratch using React. Hosted on GitHub Pages.</p>
+                  <p class="card-text">First iteration of a single-page web application created to highlight my work and professional goals. Utilized Bootstrap to ensure page responsiveness and promote smooth navigability. Entirely designed and constructed from scratch using React. Hosted on GitHub Pages.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <small>React</small>
@@ -99,19 +99,21 @@ export default function Projects({ id }) {
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
-                      <h4>Project Name</h4>
+                      <h4>To-Do App</h4>
                     </div>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/seantan22/todo-app" target="_blank" rel="noopener noreferrer">
                       <div class="fab fa-github fa-lg mb-2 ml-5"/>
                     </a>
                 </div>
                 {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
                 <div class="card-body text-dark">
-                  <p class="card-text">Project Description</p>
+                  <p class="card-text">A simple to-do list web-application using an MVC framework and CRUD operations.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
-                  <small>Languages</small>
-                  <small>Frameworks</small>
+                  <small>MongoDB</small>
+                  <small>Express.js</small>
+                  <small>Node.js</small>
+                  <small>CSS</small>
                 </div>
               </div>
             </div>

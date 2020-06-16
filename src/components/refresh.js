@@ -1,7 +1,10 @@
 import React from "react";
 import App from '../App';
 import Loading from '../components/loading.js';
-import FadeIn from "react-fade-in";
+import styled, {keyframes} from 'styled-components';
+import { fadeIn } from "react-animations/";
+
+const Transition = styled.div`animation: 2s ${keyframes `${fadeIn}`} 1`;
 
 export default class Refresh extends React.Component {
     constructor(props){
@@ -22,7 +25,7 @@ export default class Refresh extends React.Component {
         <div>
             {!this.state.done ? 
             (<Loading />) : 
-            (<FadeIn transitionDuration="2000"><App /></FadeIn>)}
+            (<Transition><App /></Transition>)}
         </div>
        )
     }

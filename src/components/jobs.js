@@ -25,7 +25,7 @@ export default class Jobs extends React.Component {
         
     render() {
         return (
-            <div class="row mt-5 ml-5">
+            <div class="row mt-5 ml-5" data-aos="fade-left" data-aos-duration="500">
                 <div class="col-md-5 tab">
                     {this.state.data.map((button, i) => (
                         <button key={button.job} 

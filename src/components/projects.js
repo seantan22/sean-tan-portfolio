@@ -6,9 +6,9 @@ export default function Projects({ id }) {
   return (
     <div className="container projects mt-5 section">
       <div className="section-content" id={id}>
-        <h3>Featured Projects</h3>
+        <h3 data-aos="fade-right" data-aos-duration="1000">Featured Projects</h3>
           <div class="row">
-            <div class="col-md-6 col-xl-4">
+            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
@@ -31,7 +31,7 @@ export default function Projects({ id }) {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4">
+            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
@@ -52,7 +52,7 @@ export default function Projects({ id }) {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4">
+            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
@@ -72,7 +72,7 @@ export default function Projects({ id }) {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4">
+            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
@@ -95,7 +95,7 @@ export default function Projects({ id }) {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4">
+            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
@@ -115,7 +115,7 @@ export default function Projects({ id }) {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4">
+            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
@@ -135,7 +135,7 @@ export default function Projects({ id }) {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4">
+            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
@@ -155,7 +155,7 @@ export default function Projects({ id }) {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4">
+            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
@@ -175,7 +175,7 @@ export default function Projects({ id }) {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4">
+            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">

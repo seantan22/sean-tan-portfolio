@@ -7,7 +7,7 @@ export default class Loading extends React.Component {
         <div class="loading d-flex justify-content-center align-items-center">
         <RingLoader
           size={200}
-          color='black'
+          color='navy'
           loading='true'
         />
         </div>

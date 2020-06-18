@@ -65,7 +65,7 @@ export default function Projects({ id }) {
                 </div>
                 <img class="card-img-top" src={cnn_asl_recog} alt="Card image cap"></img>
                 <div class="card-body text-dark">
-                  <p class="card-text">A deep-learning application to recognize numbers 0 to 5 in sign language with 78% accuracy by training a 3-layer convolutional neural network. Based on Coursera's Deep Learning Specialization.</p>
+                  <p class="card-text">A deep-learning application to recognize numbers 0 to 5 in sign language with 85% accuracy by training a 3-layer convolutional neural network. Based on Coursera's Deep Learning Specialization.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <small>Python</small>

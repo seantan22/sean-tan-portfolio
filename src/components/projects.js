@@ -1,6 +1,7 @@
 import React from "react";
 import eth_pos from "./images/eth_pos_screenshot.png"
 import thebox from "./images/thebox.png"
+import cnn_asl_recog from "./images/cnn_asl_recognition_pic.png"
 
 export default function Projects({ id }) {
   return (
@@ -56,6 +57,27 @@ export default function Projects({ id }) {
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
+                      <h4>ASL Recognition</h4>
+                    </div>
+                    <a href="https://github.com/seantan22/cnn-asl-recognizer" target="_blank" rel="noopener noreferrer">
+                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
+                    </a>
+                </div>
+                <img class="card-img-top" src={cnn_asl_recog} alt="Card image cap"></img>
+                <div class="card-body text-dark">
+                  <p class="card-text">A deep-learning application to recognize numbers 0 to 5 in sign language with 78% accuracy by training a 3-layer convolutional neural network. Based on Coursera's Deep Learning Specialization.</p>
+                </div>
+                <div class="card-footer d-flex justify-content-around">
+                  <small>Python</small>
+                  <small>TensorFlow</small>
+                  <small>Keras</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
+              <div class="card bg-secondary mb-3 mt-4">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="card-header d-flex justify-content-center">
                       <h4>Portfolio Site</h4>
                     </div>
                     <a href="https://github.com/seantan22/sean-tan-portfolio" target="_blank" rel="noopener noreferrer">
@@ -64,7 +86,7 @@ export default function Projects({ id }) {
                 </div>
                 {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
                 <div class="card-body text-dark">
-                  <p class="card-text">First iteration of a single-page web application created to highlight my work and professional goals. Utilized Bootstrap to ensure page responsiveness and promote smooth navigability. Entirely designed and constructed from scratch using React. Hosted on GitHub Pages.</p>
+                  <p class="card-text">You're looking at it! First iteration of a single-page web application created to highlight my work and goals. Utilized Bootstrap to ensure page responsiveness and promote smooth navigability. Entirely designed and constructed from scratch using React. Hosted on GitHub Pages.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <small>React</small>

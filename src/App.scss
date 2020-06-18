@@ -174,11 +174,23 @@ a:visited {
     outline: none;
   }
 }
-.tab-content {
-  float: left;
-  padding: 0px 12px;
-  width: 70%;
-  height: 300px;;
+
+.tab-content a {
+  color: rgb(76, 0, 255);
+  font-weight: 300;
+  font-style: oblique;
+  text-shadow: -1px 1px #00000065;
+}
+
+.job-link {
+  &:hover {
+    color: rgb(53, 7, 160);
+    text-decoration: none;
+    text-shadow: -1px 1px #000000;
+  }
+  &:visited {
+    text-decoration: none;
+  }
 }
 
 /* CERTIFICATIONS */
@@ -186,14 +198,13 @@ a:visited {
   margin-top: 2rem;
   margin-bottom: 2rem;
   color: black;
-  h5 {
-    font-weight: 300;
+  h5, h6 {
+    font-weight: 200;
   }
   &:hover {
-    color: black;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.795);
     text-decoration: none;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: 0.2s;
     border-radius: 2%;
   }
 }

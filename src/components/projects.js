@@ -56,26 +56,6 @@ export default function Projects({ id }) {
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
-                      <h4>CoffeeRun</h4>
-                    </div>
-                    <a href="https://github.com/seantan22/CoffeeRun" target="_blank" rel="noopener noreferrer">
-                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
-                    </a>
-                </div>
-                {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
-                <div class="card-body text-dark">
-                  <p class="card-text">A mobile app for simple and convenient coffee runs. Order a beverage and have it delivered directly to your seat on campus. Earn points by retrieving beverages for your study buddies.</p>
-                </div>
-                <div class="card-footer d-flex justify-content-around">
-                  <small>Languages</small>
-                  <small>Frameworks</small>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
-              <div class="card bg-secondary mb-3 mt-4">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="card-header d-flex justify-content-center">
                       <h4>Portfolio Site</h4>
                     </div>
                     <a href="https://github.com/seantan22/sean-tan-portfolio" target="_blank" rel="noopener noreferrer">
@@ -99,7 +79,28 @@ export default function Projects({ id }) {
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
-                      <h4>To-Do App</h4>
+                      <h4>CoffeeRun</h4>
+                    </div>
+                    <a href="https://github.com/seantan22/CoffeeRun" target="_blank" rel="noopener noreferrer">
+                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
+                    </a>
+                </div>
+                {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
+                <div class="card-body text-dark">
+                  <p class="card-text">A mobile app for simple and convenient coffee runs. Order a beverage and have it delivered directly to your seat on campus. Earn points by retrieving beverages for your study buddies.</p>
+                </div>
+                <div class="card-footer d-flex justify-content-around">
+                  <small>Java</small>
+                  <small>Spring</small>
+                  <small>Heroku Postgres</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
+              <div class="card bg-secondary mb-3 mt-4">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="card-header d-flex justify-content-center">
+                      <h4>Goal Manager</h4>
                     </div>
                     <a href="https://github.com/seantan22/todo-app" target="_blank" rel="noopener noreferrer">
                       <div class="fab fa-github fa-lg mb-2 ml-5"/>
@@ -114,86 +115,6 @@ export default function Projects({ id }) {
                   <small>Express.js</small>
                   <small>Node.js</small>
                   <small>CSS</small>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
-              <div class="card bg-secondary mb-3 mt-4">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="card-header d-flex justify-content-center">
-                      <h4>Project Name</h4>
-                    </div>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
-                    </a>
-                </div>
-                {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
-                <div class="card-body text-dark">
-                  <p class="card-text">Project Description</p>
-                </div>
-                <div class="card-footer d-flex justify-content-around">
-                  <small>Languages</small>
-                  <small>Frameworks</small>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
-              <div class="card bg-secondary mb-3 mt-4">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="card-header d-flex justify-content-center">
-                      <h4>Project Name</h4>
-                    </div>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
-                    </a>
-                </div>
-                {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
-                <div class="card-body text-dark">
-                  <p class="card-text">Project Description</p>
-                </div>
-                <div class="card-footer d-flex justify-content-around">
-                  <small>Languages</small>
-                  <small>Frameworks</small>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
-              <div class="card bg-secondary mb-3 mt-4">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="card-header d-flex justify-content-center">
-                      <h4>Project Name</h4>
-                    </div>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
-                    </a>
-                </div>
-                {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
-                <div class="card-body text-dark">
-                  <p class="card-text">Project Description</p>
-                </div>
-                <div class="card-footer d-flex justify-content-around">
-                  <small>Languages</small>
-                  <small>Frameworks</small>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
-              <div class="card bg-secondary mb-3 mt-4">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="card-header d-flex justify-content-center">
-                      <h4>Project Name</h4>
-                    </div>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
-                    </a>
-                </div>
-                {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
-                <div class="card-body text-dark">
-                  <p class="card-text">Project Description</p>
-                </div>
-                <div class="card-footer d-flex justify-content-around">
-                  <small>Languages</small>
-                  <small>Frameworks</small>
                 </div>
               </div>
             </div>

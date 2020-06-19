@@ -128,15 +128,14 @@ a:visited {
 }
 
 /* PROJECTS */
-.projects img {
+.projects img, .projects video {
   width: 95%;
-  height: 16rem;
+  height: 14rem;
   margin-left: 2.5%;
   margin-right: 2.5%;
   border: 1px solid;
   border-color: $main-color;
   border-radius: 5px;
-  padding: 2px;
 }
 .card {
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -145,17 +144,6 @@ a:visited {
     top: -10px;
     transition: all 0.2s;
   }
-}
-
-.projects video {
-  width: 95%;
-  height: 16rem;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  border: 1px solid;
-  border-color: $main-color;
-  border-radius: 5px;
-  padding: 2px;
 }
 
 /* VERTICAL TABS */

@@ -147,6 +147,17 @@ a:visited {
   }
 }
 
+.projects video {
+  width: 95%;
+  height: 16rem;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  border: 1px solid;
+  border-color: $main-color;
+  border-radius: 5px;
+  padding: 2px;
+}
+
 /* VERTICAL TABS */
 .tab button {
   background-color: inherit;

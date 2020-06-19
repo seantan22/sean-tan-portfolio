@@ -1,7 +1,8 @@
 import React from "react";
 import eth_pos from "./images/eth_pos_screenshot.png"
-import thebox from "./images/thebox.png"
+// import thebox from "./images/thebox.png"
 import cnn_asl_recog from "./images/cnn_asl_recognition_pic.png"
+import box_sim from "./images/box_sim.mp4"
 
 export default function Projects({ id }) {
   return (
@@ -42,7 +43,10 @@ export default function Projects({ id }) {
                       <div class="fab fa-github fa-lg mb-2 ml-5"/>
                     </a>
                 </div>
-                <img class="card-img-top" src={thebox} alt="Card cap"></img>
+                {/* <img class="card-img-top" src={thebox} alt="Card cap"></img> */}
+                <video class="card-img-top" loop="true" muted autoplay="autoplay">
+                  <source src={box_sim} type="video/mp4"></source>
+                </video>
                 <div class="card-body text-dark">
                   <p class="card-text">An autonomous search-and-rescue robot awarded first place recognition in McGill's Design Principles and Methods course. Fully equiped with localization, navigation and obstacle avoidance algorithms.</p>
                 </div>

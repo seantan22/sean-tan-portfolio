@@ -9,7 +9,7 @@ export default function Intro() {
             <h4 class="mt-5" style={{fontWeight:'lighter'}} data-aos="fade-down" data-aos-duration="500">I'm a software engineering student with a passion for developing impactful applications.</h4>
             <br></br>
             <a href="mailto:sean.tan@mail.mcgill.ca">
-                <button class="btn btn-lg btn-outline-dark mt-5 email" data-aos="fade-down" data-aos-duration="3000">
+                <button class="btn btn-lg btn-outline-dark mt-4 email" data-aos="fade-down" data-aos-duration="3000">
                     <span>
                         Get in Touch
                     </span>

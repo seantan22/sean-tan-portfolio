@@ -118,6 +118,7 @@ export default function Projects({ id }) {
                 <div class="card-footer d-flex justify-content-around">
                   <small>Java</small>
                   <small>Spring</small>
+                  <small>Swift</small>
                   <small>Heroku Postgres</small>
                 </div>
               </div>

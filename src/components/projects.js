@@ -67,7 +67,7 @@ export default function Projects({ id }) {
                       <div class="fab fa-github fa-lg mb-2 ml-5"/>
                     </a>
                 </div>
-                <img class="card-img-top" src={cnn_asl_recog} alt="Card image cap"></img>
+                <img class="card-img-top" src={cnn_asl_recog} alt="Card cap"></img>
                 <div class="card-body text-dark">
                   <p class="card-text">A deep-learning application to recognize numbers 0 to 5 in sign language with 85% accuracy by training a 3-layer convolutional neural network. Based on Coursera's Deep Learning Specialization.</p>
                 </div>
@@ -88,7 +88,7 @@ export default function Projects({ id }) {
                       <div class="fab fa-github fa-lg mb-2 ml-5"/>
                     </a>
                 </div>
-                {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
+                {/* <img class="card-img-top" src={thebox} alt="Card cap"></img> */}
                 <div class="card-body text-dark">
                   <p class="card-text">You're looking at it! First iteration of a single-page web application created to highlight my work and goals. Utilized Bootstrap to ensure page responsiveness and promote smooth navigability. Entirely designed and constructed from scratch using React. Hosted on GitHub Pages.</p>
                 </div>
@@ -111,7 +111,7 @@ export default function Projects({ id }) {
                       <div class="fab fa-github fa-lg mb-2 ml-5"/>
                     </a>
                 </div>
-                {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
+                {/* <img class="card-img-top" src={thebox} alt="Card cap"></img> */}
                 <div class="card-body text-dark">
                   <p class="card-text">A mobile app for simple and convenient coffee runs. Order a beverage and have it delivered directly to your seat on campus. Earn points by retrieving beverages for your study buddies.</p>
                 </div>
@@ -133,7 +133,7 @@ export default function Projects({ id }) {
                       <div class="fab fa-github fa-lg mb-2 ml-5"/>
                     </a>
                 </div>
-                {/* <img class="card-img-top" src={thebox} alt="Card image cap"></img> */}
+                {/* <img class="card-img-top" src={thebox} alt="Card cap"></img> */}
                 <div class="card-body text-dark">
                   <p class="card-text">A simple to-do list web-application using an MVC framework and CRUD operations.</p>
                 </div>

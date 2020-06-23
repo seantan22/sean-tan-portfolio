@@ -20,7 +20,7 @@ export default function Projects({ id }) {
                       <div class="fab fa-github fa-lg mb-2 ml-5"/>
                     </a>
                 </div>
-                <img class="card-img-top img-fluid" src={eth_pos} alt="eth_pos" />
+                <img class="card-img-top img-fluid" src={eth_pos} alt="eth_pos" draggable="false"/>
                 <div class="card-body text-dark">
                   <p class="card-text">A web application for vendors to accept Ether or ERC-20 Token instantaneously. Pay using your mobile wallet, receive real-time USD-to-ETH conversion rates and send transactions over the Ethereum blockchain. </p>
                 </div>
@@ -67,7 +67,7 @@ export default function Projects({ id }) {
                       <div class="fab fa-github fa-lg mb-2 ml-5"/>
                     </a>
                 </div>
-                <img class="card-img-top" src={cnn_asl_recog} alt="Card cap"></img>
+                <img class="card-img-top" src={cnn_asl_recog} alt="Card cap" draggable="false"/>
                 <div class="card-body text-dark">
                   <p class="card-text">A deep-learning application to recognize numbers 0 to 5 in sign language with 85% accuracy by training a 3-layer convolutional neural network. Based on Coursera's Deep Learning Specialization.</p>
                 </div>

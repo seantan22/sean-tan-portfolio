@@ -15,7 +15,7 @@ export default class NavBar extends React.Component {
                     <div
                         type="button" alt="Logo" onClick={this.scrollToTop}
                         data-aos="fade-down-right" data-aos-duration="2000">
-                            <img src={navlogo} alt="logo" width="100" height="auto"/>
+                            <img src={navlogo} alt="logo" width="100" height="auto" draggable="false"/>
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

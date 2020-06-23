@@ -1,5 +1,5 @@
 import React from "react";
-import eth_pos from "./images/eth_pos_screenshot.png"
+import eth_pos from "./images/eth_pos.png"
 // import thebox from "./images/thebox.png"
 import cnn_asl_recog from "./images/cnn_asl_recognition_pic.png"
 import box_sim from "./images/box_sim.mp4"
@@ -22,7 +22,7 @@ export default function Projects({ id }) {
                 </div>
                 <img class="card-img-top img-fluid" src={eth_pos} alt="eth_pos" />
                 <div class="card-body text-dark">
-                  <p class="card-text">A web application for vendors to accept Ethereum or ERC-20 Token instantaneously. Pay using your mobile wallet, receive real-time USD-to-ETH conversion rates and send transactions over the Ethereum blockchain. </p>
+                  <p class="card-text">A web application for vendors to accept Ether or ERC-20 Token instantaneously. Pay using your mobile wallet, receive real-time USD-to-ETH conversion rates and send transactions over the Ethereum blockchain. </p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <small>Solidity</small>

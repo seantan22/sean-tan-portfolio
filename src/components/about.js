@@ -16,12 +16,12 @@ export default function About({ id }) {
           </div>
           <div class="col-md-6 col-lg-5" data-aos="fade-left" data-aos-duration="500">
             <h6 class="mt-3">Hello! I'm Sean, a fourth-year student at McGill University.</h6>
-            <h6>I'm an aspiring software engineer with over three years of experience in building applications. I've worked with a diverse set of languages and frameworks that includes: Python, C, Java, TensorFlow, React, and many more. </h6>
-            <h6>Fields that excite me include deep learning, IoT, & web and mobile development. My goal is to make impactful contributions in these areas by consistently striving to produce work that is creative, innovative and distinct.</h6>
+            <h6>I'm an aspiring software engineer with over four years of programming and computer science experience. I specialize in using Python, C, Java, SQL, and React to produce work that is creative, innovative and distinct.</h6>
+            <h6>My goal is to use my software development skills to make impactful contributions in the fields of deep learning, IoT, and web & mobile development.</h6>
             <h6>Off screen, you'll find me participating in a variety of up-tempo activities like playing lacrosse for McGill's varsity team, designing sustainable tiny-homes and digitaly mixing music.</h6>
           </div>
           <div class="col-sm-8 col-md-6 col-lg-3" data-aos="fade-left" data-aos-duration="500">
-              <img class="img img-fluid prof-pic" src={headshot} alt="sean_headshot"/>
+              <img class="img-fluid prof-pic" src={headshot} alt="sean_headshot"/>
           </div>
         </div>
       </div>

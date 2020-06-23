@@ -59,7 +59,7 @@ export default class NavBar extends React.Component {
                                 </Link>
                             </li>
                             <li className="nav-item" data-aos="fade-down" data-aos-duration="2500">
-                                <a class="nav-link mx-3 mb-3 resume" href={resume} download="Sean Tan Resume.pdf"><i class="fas fa-download"></i> Resume</a>
+                                <a class="nav-link mx-3 mb-3 resume" href={resume} download="Sean-Tan-Resume.pdf"><i class="fas fa-download"></i> Resume</a>
                             </li>
                         </ul>
                     </div>

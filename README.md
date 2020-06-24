@@ -1,5 +1,4 @@
-# Welcome to my portfolio repository. 
+# SEAN TAN PORTFOLIO
 
 ### Visit now at https://seantan.software !
 
-##### Completed in June 2020.

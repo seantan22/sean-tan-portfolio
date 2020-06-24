@@ -1,31 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.5d1e477f.chunk.css",
-    "main.js": "/static/js/main.c0c91055.chunk.js",
-    "main.js.map": "/static/js/main.c0c91055.chunk.js.map",
+    "main.js": "/static/js/main.edbe3cff.chunk.js",
+    "main.js.map": "/static/js/main.edbe3cff.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.07462ba3.js",
     "runtime-main.js.map": "/static/js/runtime-main.07462ba3.js.map",
     "static/css/2.4707e12a.chunk.css": "/static/css/2.4707e12a.chunk.css",
-    "static/js/2.2a6b31d1.chunk.js": "/static/js/2.2a6b31d1.chunk.js",
-    "static/js/2.2a6b31d1.chunk.js.map": "/static/js/2.2a6b31d1.chunk.js.map",
+    "static/js/2.58af062b.chunk.js": "/static/js/2.58af062b.chunk.js",
+    "static/js/2.58af062b.chunk.js.map": "/static/js/2.58af062b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1266ded12f8351706d69fcafd6584873.js": "/precache-manifest.1266ded12f8351706d69fcafd6584873.js",
+    "precache-manifest.4dbb9f057ed2d552a5a69ba657df9047.js": "/precache-manifest.4dbb9f057ed2d552a5a69ba657df9047.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.5d1e477f.chunk.css.map": "/static/css/main.5d1e477f.chunk.css.map",
-    "static/js/2.2a6b31d1.chunk.js.LICENSE.txt": "/static/js/2.2a6b31d1.chunk.js.LICENSE.txt",
+    "static/js/2.58af062b.chunk.js.LICENSE.txt": "/static/js/2.58af062b.chunk.js.LICENSE.txt",
     "static/media/SeanTanResume.pdf": "/static/media/SeanTanResume.bd876b04.pdf",
     "static/media/box_sim.mp4": "/static/media/box_sim.bfec7cf9.mp4",
     "static/media/cnn_asl_recognition_pic.png": "/static/media/cnn_asl_recognition_pic.c034cb35.png",
     "static/media/eth_pos.png": "/static/media/eth_pos.115cf833.png",
+    "static/media/eth_pos_demo.mp4": "/static/media/eth_pos_demo.0f4e73e8.mp4",
     "static/media/navlogo.png": "/static/media/navlogo.31e04381.png",
     "static/media/sean_headshot_bg.png": "/static/media/sean_headshot_bg.c43e8789.png"
   },
   "entrypoints": [
     "static/js/runtime-main.07462ba3.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.2a6b31d1.chunk.js",
+    "static/js/2.58af062b.chunk.js",
     "static/css/main.5d1e477f.chunk.css",
-    "static/js/main.c0c91055.chunk.js"
+    "static/js/main.edbe3cff.chunk.js"
   ]
 }

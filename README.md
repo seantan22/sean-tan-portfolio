@@ -1,10 +1,5 @@
-# Sean Tan Portfolio
+# Welcome to my portfolio repository. 
 
 ### Visit now at https://seantan.software !
 
-Javascript:     react
-CSS:            bootstrap
-Animations:     aos
-Scrolling:      react-scroll
-Spinners:       react-spinners
-Email:          emailjs-com
+##### Completed in June 2020.

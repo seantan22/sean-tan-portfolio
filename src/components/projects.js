@@ -1,5 +1,5 @@
 import React from "react";
-import eth_pos from "./images/eth_pos.png"
+// import eth_pos from "./images/eth_pos.png"
 // import thebox from "./images/thebox.png"
 import cnn_asl_recog from "./images/cnn_asl_recognition_pic.png"
 import box_sim from "./images/box_sim.mp4"

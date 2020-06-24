@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4a3abb4a6664282c00affcf4edce558",
+    "revision": "0eab336ffc36e2f3cfaf4f78d87dcafd",
     "url": "/index.html"
   },
   {
-    "revision": "cb9a8296d51f86fcff55",
+    "revision": "7679ab920bce95dfa7ce",
     "url": "/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "c17b87e9b0a51af6ca8c",
-    "url": "/static/css/main.5d1e477f.chunk.css"
+    "revision": "51ebe0af734a41a5ee4f",
+    "url": "/static/css/main.ded189b6.chunk.css"
   },
   {
-    "revision": "cb9a8296d51f86fcff55",
-    "url": "/static/js/2.58af062b.chunk.js"
+    "revision": "7679ab920bce95dfa7ce",
+    "url": "/static/js/2.516a4ba6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.58af062b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.516a4ba6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c17b87e9b0a51af6ca8c",
-    "url": "/static/js/main.edbe3cff.chunk.js"
+    "revision": "51ebe0af734a41a5ee4f",
+    "url": "/static/js/main.62a07632.chunk.js"
   },
   {
     "revision": "eb8208a7b3505f1fc511",
@@ -38,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c034cb35b357da8078942050af094ac2",
     "url": "/static/media/cnn_asl_recognition_pic.c034cb35.png"
-  },
-  {
-    "revision": "115cf8338d4f0fbbf90c82aa7a0f77ae",
-    "url": "/static/media/eth_pos.115cf833.png"
   },
   {
     "revision": "0f4e73e89eee15fc63a792c078123595",

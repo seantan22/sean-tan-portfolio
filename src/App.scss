@@ -106,16 +106,10 @@ a:visited {
   top: -2px;
 }
 
-/* EMAIL */
-.email {
-  transition: all 2s;
-}
-.email:hover span {
-  display: none;
-}
-.email:hover:before {
-  content:"sean.tan@mail.mcgill.ca";
-  font-weight: 200;
+.intro .btn {
+  &:hover {
+    color: white;
+  }
 }
 
 /* PROFILE PICTURE */
@@ -203,6 +197,53 @@ a:visited {
   }
   // &:hover {
   // }
+}
+
+.email h5 {
+  font-size: 22px;
+  font-weight: 200;
+}
+.email input {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(99, 70, 204);
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  border-color: $main-color;
+  background-color: #57575710;
+  border-style: solid;
+  width: '25%';
+  height: 'auto';
+  &:hover {
+    background-color: #00000027;
+  }
+  &:focus {
+    background-color: white;
+    &::placeholder {
+      color: transparent;
+    }
+  }
+}
+.email textarea {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-color: $main-color;
+  border-style: solid;
+  &:focus {
+    background-color: white;
+    &::placeholder {
+      color: transparent;
+    }
+  }
 }
 
 @import "custom";

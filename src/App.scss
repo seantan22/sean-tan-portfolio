@@ -15,7 +15,7 @@ $link-hover-color: rgb(0, 68, 177);
   h3 {font-size: 40px; font-weight: lighter;}
   h4 {font-size: 30px; font-weight: 200;}
   h5 {font-size: 18px; font-weight: 350;}
-  h6 {font-size: 16px; font-weight: 300; margin-bottom: 20px;}
+  h6 {font-size: 18px; font-weight: 300; margin-bottom: 20px;}
   p {font-size: 14px; font-weight: 400;}
   small {
     font-size: 12px;
@@ -52,6 +52,14 @@ $link-hover-color: rgb(0, 68, 177);
   &:hover {
     color: red;
   }
+}
+.email-display-state .fas {
+  &:hover {
+    color: black
+  }
+}
+.success .fas {
+  color:#5cb85c;
 }
 
 /* LINES */
@@ -210,14 +218,17 @@ a:visited {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(99, 70, 204);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 22px;
   text-align: center;
   border-color: $main-color;
-  background-color: #57575710;
+  background-color: $main-color;
   border-style: solid;
-  width: '25%';
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  width: '28%';
   height: 'auto';
+  padding: 3px 18px;
   &:hover {
     background-color: #00000027;
   }
@@ -238,11 +249,25 @@ a:visited {
   -moz-osx-font-smoothing: grayscale;
   border-color: $main-color;
   border-style: solid;
+  padding: 4px 10px;
   &:focus {
     background-color: white;
     &::placeholder {
       color: transparent;
     }
+  }
+}
+.email-display-state p {
+  font-size: 18px;
+  font-weight: 200;
+}
+.email-display-state .proj-link {
+  text-decoration: underline;
+  margin-left: -14px;
+  margin-right: -14px;
+  &:hover {
+    text-decoration: underline;
+    color: rgb(53, 7, 160);
   }
 }
 

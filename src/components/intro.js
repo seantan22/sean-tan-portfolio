@@ -11,7 +11,7 @@ export default class Intro extends React.Component {
                 <h4 class="mt-5" style={{fontWeight:'lighter'}} data-aos="fade-down" data-aos-duration="500">I'm a software engineering student with a passion for developing impactful applications.</h4>
                 <br></br>
                     <Link
-                        className="btn btn-outline-dark mx-3"
+                        className="btn btn-outline-dark mt-4 mx-3"
                         activeClass="active" to="contact"
                         spy={true} smooth={true}
                         offset={-75} duration={500}>

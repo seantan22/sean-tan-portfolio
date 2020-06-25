@@ -13,7 +13,16 @@ export default function Certifications() {
               <h5 class="mt-2">Deep Learning Specialization</h5>
             </div>
             <div class="row d-flex justify-content-center">
-              <h6>Coursera | June 2020</h6>
+              <h6>deeplearning.ai | June 2020</h6>
+            </div>
+          </a>
+          <a class="col-md-5 col-lg-3 cert" href="" target="_blank" rel="noopener noreferrer"
+            data-aos="fade-left" data-aos-duration="500">
+            <div class="row d-flex justify-content-center">
+              <h5 class="mt-2">SQL for Data Science</h5>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <h6>UC Davis | June 2020</h6>
             </div>
           </a>
           <p class="col-md-5 col-lg-3 cert" data-aos="fade-left" data-aos-duration="500">

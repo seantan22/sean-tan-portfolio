@@ -12,7 +12,7 @@ export default function Certifications() {
         <div class="row d-flex justify-content-around">
           <a class="col-md-5 col-lg-3 cert" href="https://www.coursera.org/account/accomplishments/specialization/ZKHQEPKZTETP" target="_blank" rel="noopener noreferrer">
             <div class="row d-flex justify-content-center">
-              <img class="cert-image" src={deep_cert} alt="sql-cert"/>
+              <img class="cert-image" src={deep_cert} alt="sql-cert" draggable="false"/>
             </div>
             <div class="row d-flex justify-content-center">
               <h5 class="mt-2">Deep Learning Specialization</h5>
@@ -26,7 +26,7 @@ export default function Certifications() {
           </a>
           <a class="col-md-5 col-lg-3 cert" href="https://www.coursera.org/account/accomplishments/certificate/6A6FAHWAGS59" target="_blank" rel="noopener noreferrer">
             <div class="row d-flex justify-content-center">
-              <img class="cert-image" src={sql_cert} alt="sql-cert"/>
+              <img class="cert-image" src={sql_cert} alt="sql-cert" draggable="false"/>
             </div>
             <div class="row d-flex justify-content-center">
               <h5 class="mt-2">SQL for Data Science</h5>

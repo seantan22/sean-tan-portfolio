@@ -22,7 +22,7 @@ export default class NavBar extends React.Component {
                     </button>
                     <div class="navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ml-auto flex-nowrap mb-3">
-                            <li className="nav-item" data-aos="fade-down" data-aos-duration="1500">
+                            <li className="nav-item" data-aos="fade-down" data-aos-duration="500">
                                 <Link
                                     className="nav-link mx-3"
                                     activeClass="active" to="projects"
@@ -40,7 +40,7 @@ export default class NavBar extends React.Component {
                                         Experience
                                 </Link>
                             </li>
-                            <li className="nav-item" data-aos="fade-down" data-aos-duration="500">
+                            <li className="nav-item" data-aos="fade-down" data-aos-duration="1500">
                                 <Link
                                     className="nav-link mx-3"
                                     activeClass="active" to="about"

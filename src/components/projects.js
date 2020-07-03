@@ -64,7 +64,7 @@ export default function Projects({ id }) {
                       <h4>ASL Recognition</h4>
                     </div>
                     <a href="https://github.com/seantan22/cnn-asl-recognizer" target="_blank" rel="noopener noreferrer">
-                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
+                      <div class="fab fa-github fa-lg mb-2 ml-4"/>
                     </a>
                 </div>
                 <img class="card-img-top" src={cnn_asl_recog} alt="Card cap" draggable="false"/>

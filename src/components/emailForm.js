@@ -48,7 +48,7 @@ function ErrorDisplay() {
         <div className="email-display-state">
             <button className="btn btn-outline-danger mt-3" type="button" disabled>Error!</button>
             <h5 className="mt-3">
-                Whoops! Please contact me through the phone or email listed below:
+                Whoops! Please reach out through the phone or email listed below:
             </h5>
             <div className="d-flex justify-content-center">
                 <p className="mt-1 d-flex align-items-center">

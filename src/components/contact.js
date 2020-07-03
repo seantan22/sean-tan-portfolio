@@ -4,7 +4,7 @@ import EmailForm from "./emailForm";
 
 export default function Contact({ id }) {
   return (
-    <div className="container contact mt-3">
+    <div className="container contact mt-1">
       <div id={id}>
         <h2 data-aos="zoom-in" data-aos-duration="5000">Get In Touch</h2>
         <div class="row>">

@@ -1,6 +1,6 @@
 import React from "react";
 
-import box_sim from "./images/bam_team.jpg"
+// import bam_team from "./images/bam_team.jpg"
 
 export default class Jobs extends React.Component {
     constructor(props) {

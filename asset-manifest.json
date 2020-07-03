@@ -1,31 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e4318ab.chunk.css",
-    "main.js": "/static/js/main.3f710d60.chunk.js",
-    "main.js.map": "/static/js/main.3f710d60.chunk.js.map",
+    "main.css": "/static/css/main.fff7d9f0.chunk.css",
+    "main.js": "/static/js/main.bda963b1.chunk.js",
+    "main.js.map": "/static/js/main.bda963b1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.07462ba3.js",
     "runtime-main.js.map": "/static/js/runtime-main.07462ba3.js.map",
     "static/css/2.4707e12a.chunk.css": "/static/css/2.4707e12a.chunk.css",
-    "static/js/2.3412def9.chunk.js": "/static/js/2.3412def9.chunk.js",
-    "static/js/2.3412def9.chunk.js.map": "/static/js/2.3412def9.chunk.js.map",
+    "static/js/2.d5b5a0cc.chunk.js": "/static/js/2.d5b5a0cc.chunk.js",
+    "static/js/2.d5b5a0cc.chunk.js.map": "/static/js/2.d5b5a0cc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.501ef39d0a110c0133ba946d10a6274b.js": "/precache-manifest.501ef39d0a110c0133ba946d10a6274b.js",
+    "precache-manifest.a2ce74853a11da20f53fa4edfebd3356.js": "/precache-manifest.a2ce74853a11da20f53fa4edfebd3356.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.9e4318ab.chunk.css.map": "/static/css/main.9e4318ab.chunk.css.map",
-    "static/js/2.3412def9.chunk.js.LICENSE.txt": "/static/js/2.3412def9.chunk.js.LICENSE.txt",
+    "static/css/main.fff7d9f0.chunk.css.map": "/static/css/main.fff7d9f0.chunk.css.map",
+    "static/js/2.d5b5a0cc.chunk.js.LICENSE.txt": "/static/js/2.d5b5a0cc.chunk.js.LICENSE.txt",
     "static/media/SeanTanResume.pdf": "/static/media/SeanTanResume.bd876b04.pdf",
+    "static/media/bam_team.jpg": "/static/media/bam_team.1b78e820.jpg",
     "static/media/box_sim.mp4": "/static/media/box_sim.bfec7cf9.mp4",
     "static/media/cnn_asl_recognition_pic.png": "/static/media/cnn_asl_recognition_pic.c034cb35.png",
+    "static/media/deep_learning_cert.png": "/static/media/deep_learning_cert.bbe5b559.png",
     "static/media/eth_pos_demo.mp4": "/static/media/eth_pos_demo.0f4e73e8.mp4",
     "static/media/navlogo.png": "/static/media/navlogo.31e04381.png",
-    "static/media/sean_headshot_bg.png": "/static/media/sean_headshot_bg.c43e8789.png"
+    "static/media/sean_headshot_bg.png": "/static/media/sean_headshot_bg.c43e8789.png",
+    "static/media/sql_cert.png": "/static/media/sql_cert.3441305f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.07462ba3.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.3412def9.chunk.js",
-    "static/css/main.9e4318ab.chunk.css",
-    "static/js/main.3f710d60.chunk.js"
+    "static/js/2.d5b5a0cc.chunk.js",
+    "static/css/main.fff7d9f0.chunk.css",
+    "static/js/main.bda963b1.chunk.js"
   ]
 }

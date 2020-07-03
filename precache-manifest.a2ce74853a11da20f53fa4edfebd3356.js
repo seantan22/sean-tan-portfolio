@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc0debbf8dfe0203516f1a02b81da31e",
+    "revision": "c7dc0bbdcde08c33890201a0d490ad53",
     "url": "/index.html"
   },
   {
-    "revision": "f3ad0d092b2f248d6b02",
+    "revision": "99532656b202e89ca6ef",
     "url": "/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "a60894776b4e607d4c5d",
-    "url": "/static/css/main.9e4318ab.chunk.css"
+    "revision": "099b78a4e312d7f6d68f",
+    "url": "/static/css/main.fff7d9f0.chunk.css"
   },
   {
-    "revision": "f3ad0d092b2f248d6b02",
-    "url": "/static/js/2.3412def9.chunk.js"
+    "revision": "99532656b202e89ca6ef",
+    "url": "/static/js/2.d5b5a0cc.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.3412def9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d5b5a0cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a60894776b4e607d4c5d",
-    "url": "/static/js/main.3f710d60.chunk.js"
+    "revision": "099b78a4e312d7f6d68f",
+    "url": "/static/js/main.bda963b1.chunk.js"
   },
   {
     "revision": "eb8208a7b3505f1fc511",
@@ -32,12 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SeanTanResume.bd876b04.pdf"
   },
   {
+    "revision": "1b78e8205c0e9b68094c4d79ace783c0",
+    "url": "/static/media/bam_team.1b78e820.jpg"
+  },
+  {
     "revision": "bfec7cf9c8dd58ebfdd5010f7cff69a5",
     "url": "/static/media/box_sim.bfec7cf9.mp4"
   },
   {
     "revision": "c034cb35b357da8078942050af094ac2",
     "url": "/static/media/cnn_asl_recognition_pic.c034cb35.png"
+  },
+  {
+    "revision": "bbe5b559f1ea08db14ff3db80fc92979",
+    "url": "/static/media/deep_learning_cert.bbe5b559.png"
   },
   {
     "revision": "0f4e73e89eee15fc63a792c078123595",
@@ -50,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c43e8789c06b7355dec3a99a22e8af3c",
     "url": "/static/media/sean_headshot_bg.c43e8789.png"
+  },
+  {
+    "revision": "3441305f7ae4ec5de1920ea50fa21736",
+    "url": "/static/media/sql_cert.3441305f.png"
   }
 ]);

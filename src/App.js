@@ -23,9 +23,9 @@ export default class App extends React.Component {
         <div class="body">
           <Intro />
           <div class="content">
-              <About id="about" />
-              <Experience id="experience" />
               <Projects id="projects" />
+              <Experience id="experience" />
+              <About id="about" />
           </div>
           <Contact id="contact" />
           <Footer />

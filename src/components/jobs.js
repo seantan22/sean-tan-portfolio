@@ -1,5 +1,7 @@
 import React from "react";
 
+import box_sim from "./images/bam_team.jpg"
+
 export default class Jobs extends React.Component {
     constructor(props) {
         super(props);
@@ -21,7 +23,7 @@ export default class Jobs extends React.Component {
         
     render() {
         return (
-            <div class="row mt-3 ml-5" data-aos="fade-left" data-aos-duration="500">
+            <div class="row mt-3 ml-5">
                 <div class="col-md-5 tab">
                     {this.state.data.map((button, i) => (
                         <button key={button.job} 
@@ -34,11 +36,11 @@ export default class Jobs extends React.Component {
                 <div class="col-md-7 mt-2 tab-content">
                     {this.state.currentTab !== -1 &&
                         <React.Fragment>
-                            <h4>{this.state.data[this.state.currentTab].title} 
+                            <h5>{this.state.data[this.state.currentTab].title} 
                                 <a href={this.state.data[this.state.currentTab].link} class="job-link" target="_blank" rel="noopener noreferrer"> 
                                     @ {this.state.data[this.state.currentTab].job}
                                 </a>
-                            </h4>
+                            </h5>
                             <h6>{this.state.data[this.state.currentTab].year}</h6>
                             <p class="mt-3">{this.state.data[this.state.currentTab].desc}</p>
                         </React.Fragment>

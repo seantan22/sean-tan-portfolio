@@ -2,6 +2,8 @@ import React from "react";
 import cnn_asl_recog from "./images/cnn_asl_recognition_pic.png"
 import box_sim from "./images/box_sim.mp4"
 import eth_pos_demo from "./images/eth_pos_demo.mp4"
+import beat_switch from "./images/beat_switch.png"
+
 
 export default function Projects({ id }) {
   return (
@@ -9,6 +11,31 @@ export default function Projects({ id }) {
       <div className="section-content" id={id}>
         <h3 data-aos="fade-right" data-aos-duration="1000">Featured Projects</h3>
           <div class="row">
+          <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
+              <div class="card bg-secondary mb-3 mt-4">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="card-header d-flex justify-content-center">
+                      <h4>Beat Switch</h4>
+                    </div>
+                    <a href="https://github.com/seantan22/dj-spotify-collab" target="_blank" rel="noopener noreferrer">
+                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
+                    </a>
+                </div>
+                {/* <video class="card-img-top" loop="true" muted autoplay="autoplay">
+                  <source src={eth_pos_demo} type="video/mp4"></source>
+                </video> */}
+                <img class="card-img-top" src={beat_switch} alt="Card cap" draggable="false"/>
+                <div class="card-body text-dark">
+                  <p class="card-text">[Coming Soon] A web application providing DJs with the tools they need to build a well-arranged tracklist for their next big event. View and organize tracks based on audio features like tempo and energy. Get recommendations on the best songs to play next. </p>
+                </div>
+                <div class="card-footer d-flex justify-content-around">
+                  <small>Spotify Web API</small>
+                  <small>React</small>
+                  <small>Node.js</small>
+                  <small>Express</small>
+                </div>
+              </div>
+            </div>
             <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
@@ -57,27 +84,6 @@ export default function Projects({ id }) {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
-              <div class="card bg-secondary mb-3 mt-4">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="card-header d-flex justify-content-center">
-                      <h4>ASL Recognition</h4>
-                    </div>
-                    <a href="https://github.com/seantan22/cnn-asl-recognizer" target="_blank" rel="noopener noreferrer">
-                      <div class="fab fa-github fa-lg mb-2 ml-4"/>
-                    </a>
-                </div>
-                <img class="card-img-top" src={cnn_asl_recog} alt="Card cap" draggable="false"/>
-                <div class="card-body text-dark">
-                  <p class="card-text">A deep-learning application to recognize numbers 0 to 5 in sign language with 85% accuracy by training a 3-layer convolutional neural network. Based on Coursera's Deep Learning Specialization.</p>
-                </div>
-                <div class="card-footer d-flex justify-content-around">
-                  <small>Python</small>
-                  <small>TensorFlow</small>
-                  <small>Keras</small>
-                </div>
-              </div>
-            </div>
           </div>
           <h3 class="mt-2" data-aos="fade-right" data-aos-duration="1000">Additional Projects</h3>  
           <div class="row">
@@ -105,6 +111,27 @@ export default function Projects({ id }) {
                     <small>Node.js</small>
                   </div>
                 {/* </div>   */}
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
+              <div class="card bg-secondary mb-3 mt-4">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="card-header d-flex justify-content-center">
+                      <h4>ASL Recognition</h4>
+                    </div>
+                    <a href="https://github.com/seantan22/cnn-asl-recognizer" target="_blank" rel="noopener noreferrer">
+                      <div class="fab fa-github fa-lg mb-2 ml-4"/>
+                    </a>
+                </div>
+                <img class="card-img-top" src={cnn_asl_recog} alt="Card cap" draggable="false"/>
+                <div class="card-body text-dark">
+                  <p class="card-text">A deep-learning application to recognize numbers 0 to 5 in sign language with 85% accuracy by training a 3-layer convolutional neural network. Based on Coursera's Deep Learning Specialization.</p>
+                </div>
+                <div class="card-footer d-flex justify-content-around">
+                  <small>Python</small>
+                  <small>TensorFlow</small>
+                  <small>Keras</small>
+                </div>
               </div>
             </div>
             <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">

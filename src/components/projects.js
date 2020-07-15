@@ -2,7 +2,8 @@ import React from "react";
 import cnn_asl_recog from "./images/cnn_asl_recognition_pic.png"
 import box_sim from "./images/box_sim.mp4"
 import eth_pos_demo from "./images/eth_pos_demo.mp4"
-import beat_switch from "./images/beat_switch.png"
+import beatswitch_demo from "./images/beatswitch_demo.mp4"
+// import beat_switch from "./images/beat_switch1.png"
 
 
 export default function Projects({ id }) {
@@ -11,7 +12,7 @@ export default function Projects({ id }) {
       <div className="section-content" id={id}>
         <h3 data-aos="fade-right" data-aos-duration="1000">Featured Projects</h3>
           <div class="row">
-          <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
+            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="card-header d-flex justify-content-center">
@@ -21,12 +22,14 @@ export default function Projects({ id }) {
                       <div class="fab fa-github fa-lg mb-2 ml-5"/>
                     </a>
                 </div>
-                {/* <video class="card-img-top" loop="true" muted autoplay="autoplay">
-                  <source src={eth_pos_demo} type="video/mp4"></source>
-                </video> */}
-                <img class="card-img-top" src={beat_switch} alt="Card cap" draggable="false"/>
+                <a href="http://beat-switch.herokuapp.com">
+                  <video class="card-img-top" loop="true" muted autoplay="autoplay">
+                    <source src={beatswitch_demo} type="video/mp4"></source>
+                  </video>
+                </a>
+                {/* <img class="card-img-top" src={beat_switch} alt="Card cap" draggable="false"/> */}
                 <div class="card-body text-dark">
-                  <p class="card-text">[Coming Soon] A web application providing DJs with the tools they need to build a well-arranged tracklist for their next big event. View and organize tracks based on audio features like tempo and energy. Get recommendations on the best songs to play next. </p>
+                  <p class="card-text">A web application providing DJs with the tools to build a well-arranged tracklist. View in-depth track metrics including popularity and energy. Get recomendations on which song to play next based on tempo and genre.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <small>Spotify Web API</small>

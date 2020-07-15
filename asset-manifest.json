@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.138d9d7d.chunk.css",
-    "main.js": "/static/js/main.31441aee.chunk.js",
-    "main.js.map": "/static/js/main.31441aee.chunk.js.map",
+    "main.css": "/static/css/main.97dd2b97.chunk.css",
+    "main.js": "/static/js/main.655aa961.chunk.js",
+    "main.js.map": "/static/js/main.655aa961.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.07462ba3.js",
     "runtime-main.js.map": "/static/js/runtime-main.07462ba3.js.map",
     "static/css/2.4707e12a.chunk.css": "/static/css/2.4707e12a.chunk.css",
-    "static/js/2.ae292b53.chunk.js": "/static/js/2.ae292b53.chunk.js",
-    "static/js/2.ae292b53.chunk.js.map": "/static/js/2.ae292b53.chunk.js.map",
+    "static/js/2.0d29b434.chunk.js": "/static/js/2.0d29b434.chunk.js",
+    "static/js/2.0d29b434.chunk.js.map": "/static/js/2.0d29b434.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d116cc97a85f21f0cca3d47a0995fbd2.js": "/precache-manifest.d116cc97a85f21f0cca3d47a0995fbd2.js",
+    "precache-manifest.647375934c4b61cf52d34f289948da47.js": "/precache-manifest.647375934c4b61cf52d34f289948da47.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.138d9d7d.chunk.css.map": "/static/css/main.138d9d7d.chunk.css.map",
-    "static/js/2.ae292b53.chunk.js.LICENSE.txt": "/static/js/2.ae292b53.chunk.js.LICENSE.txt",
+    "static/css/main.97dd2b97.chunk.css.map": "/static/css/main.97dd2b97.chunk.css.map",
+    "static/js/2.0d29b434.chunk.js.LICENSE.txt": "/static/js/2.0d29b434.chunk.js.LICENSE.txt",
     "static/media/SeanTanResume.pdf": "/static/media/SeanTanResume.bd876b04.pdf",
+    "static/media/beatswitch_demo.mp4": "/static/media/beatswitch_demo.76122b70.mp4",
     "static/media/box_sim.mp4": "/static/media/box_sim.bfec7cf9.mp4",
     "static/media/cnn_asl_recognition_pic.png": "/static/media/cnn_asl_recognition_pic.c034cb35.png",
     "static/media/deep_learning_cert.png": "/static/media/deep_learning_cert.bbe5b559.png",
@@ -26,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.07462ba3.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.ae292b53.chunk.js",
-    "static/css/main.138d9d7d.chunk.css",
-    "static/js/main.31441aee.chunk.js"
+    "static/js/2.0d29b434.chunk.js",
+    "static/css/main.97dd2b97.chunk.css",
+    "static/js/main.655aa961.chunk.js"
   ]
 }

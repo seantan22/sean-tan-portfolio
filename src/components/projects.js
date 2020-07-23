@@ -4,6 +4,7 @@ import box_sim from "./images/box_sim.mp4"
 import eth_pos_demo from "./images/eth_pos_demo.mp4"
 import beatswitch_demo from "./images/beatswitch_demo.mp4"
 // import beat_switch from "./images/beat_switch1.png"
+import coffee_run from "./images/coffee_run.png"
 
 
 export default function Projects({ id }) {
@@ -29,7 +30,7 @@ export default function Projects({ id }) {
                 </a>
                 {/* <img class="card-img-top" src={beat_switch} alt="Card cap" draggable="false"/> */}
                 <div class="card-body text-dark">
-                  <p class="card-text">A web application providing DJs with the tools to build a well-arranged tracklist. View in-depth track metrics including popularity and energy. Get recomendations on which song to play next based on tempo and genre.</p>
+                  <p class="card-text">A web app providing DJs with the tools to build a well-arranged tracklist. View in-depth track metrics including popularity and energy. Get recomendations on which song to play next based on tempo and genre.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <small>Spotify Web API</small>
@@ -37,6 +38,29 @@ export default function Projects({ id }) {
                   <small>Node.js</small>
                   <small>Express</small>
                 </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
+              <div class="card bg-secondary mt-4">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="card-header d-flex justify-content-center">
+                      <h4>CoffeeRun</h4>
+                    </div>
+                    <a href="https://github.com/seantan22/CoffeeRun" target="_blank" rel="noopener noreferrer">
+                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
+                    </a>
+                </div>
+                {/* <button class="btn btn-outline-secondary mb-2" type="button" data-toggle="collapse" data-target="#learnMoreCoffeeRun" aria-expanded="false" aria-controls="learnMorePortfolioSite"><i class="fas fa-angle-double-down"></i></button> */}
+                <img class="card-img-top" src={coffee_run} alt="Card cap"></img>
+                {/* <div class="collapse multi-collapse" id="learnMoreCoffeeRun"> */}
+                  <div class="card-body text-dark">
+                    <p class="card-text">A web app for simple and convenient coffee runs. Order a beverage and have it delivered directly to your seat on campus. Earn points by retrieving beverages for your study buddies. [Mobile version coming soon!].</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-around">
+                    <small>Ruby on Rails</small>
+                    <small>Heroku Postgres</small>
+                  </div>
+                {/* </div> */}
               </div>
             </div>
             <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
@@ -53,7 +77,7 @@ export default function Projects({ id }) {
                   <source src={eth_pos_demo} type="video/mp4"></source>
                 </video>
                 <div class="card-body text-dark">
-                  <p class="card-text">A web application for vendors to accept Ether or ERC-20 Token instantaneously. Pay using your mobile wallet, receive real-time USD-to-ETH conversion rates and send transactions over the Ethereum blockchain. </p>
+                  <p class="card-text">A web app for vendors to accept Ether or ERC-20 Token instantaneously. Pay using your mobile wallet, receive real-time USD-to-ETH conversion rates and send transactions over the Ethereum blockchain. </p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <small>Solidity</small>
@@ -64,6 +88,9 @@ export default function Projects({ id }) {
                 </div>
               </div>
             </div>
+          </div>
+          <h3 class="mt-2" data-aos="fade-right" data-aos-duration="1000">Additional Projects</h3>  
+          <div class="row">
             <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
@@ -87,9 +114,6 @@ export default function Projects({ id }) {
                 </div>
               </div>
             </div>
-          </div>
-          <h3 class="mt-2" data-aos="fade-right" data-aos-duration="1000">Additional Projects</h3>  
-          <div class="row">
             <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
@@ -135,31 +159,6 @@ export default function Projects({ id }) {
                   <small>TensorFlow</small>
                   <small>Keras</small>
                 </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
-              <div class="card bg-secondary mt-4">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="card-header d-flex justify-content-center">
-                      <h4>CoffeeRun</h4>
-                    </div>
-                    <a href="https://github.com/seantan22/CoffeeRun" target="_blank" rel="noopener noreferrer">
-                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
-                    </a>
-                </div>
-                {/* <button class="btn btn-outline-secondary mb-2" type="button" data-toggle="collapse" data-target="#learnMoreCoffeeRun" aria-expanded="false" aria-controls="learnMorePortfolioSite"><i class="fas fa-angle-double-down"></i></button> */}
-                {/* <img class="card-img-top" src={thebox} alt="Card cap"></img> */}
-                {/* <div class="collapse multi-collapse" id="learnMoreCoffeeRun"> */}
-                  <div class="card-body text-dark">
-                    <p class="card-text">[Coming Soon] A mobile app for simple and convenient coffee runs. Order a beverage and have it delivered directly to your seat on campus. Earn points by retrieving beverages for your study buddies.</p>
-                  </div>
-                  <div class="card-footer d-flex justify-content-around">
-                    <small>Java</small>
-                    <small>Spring</small>
-                    <small>Swift</small>
-                    <small>Heroku Postgres</small>
-                  </div>
-                {/* </div> */}
               </div>
             </div>
           </div>

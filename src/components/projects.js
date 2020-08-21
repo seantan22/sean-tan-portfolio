@@ -13,6 +13,34 @@ export default function Projects({ id }) {
       <div className="section-content" id={id}>
         <h3 data-aos="fade-right" data-aos-duration="1000">Featured Projects</h3>
           <div class="row">
+
+          <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
+              <div class="card bg-secondary mt-4">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="card-header d-flex justify-content-center">
+                      <h4>CoffeeRun</h4>
+                    </div>
+                    <a href="https://github.com/seantan22/CoffeeRun" target="_blank" rel="noopener noreferrer">
+                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
+                    </a>
+                </div>
+                {/* <button class="btn btn-outline-secondary mb-2" type="button" data-toggle="collapse" data-target="#learnMoreCoffeeRun" aria-expanded="false" aria-controls="learnMorePortfolioSite"><i class="fas fa-angle-double-down"></i></button> */}
+                <img class="card-img-top" src={coffee_run} alt="Card cap"></img>
+                {/* <div class="collapse multi-collapse" id="learnMoreCoffeeRun"> */}
+                  <div class="card-body text-dark">
+                    <p class="card-text">During Summer 2020, I co-founded CoffeeRun, a beverage delivery service that allows students to order drinks right to their seat in the library, or deliver drinks to other students for cash. The iOS application handles orders, deliveries and transactions, while also supporting the ability to add friends and message. The app is currently being beta tested by 50 students at McGill and under consideration for the McGill TechAccel grant.</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-around">
+                    <small>Swift</small>
+                    <small>Node.js</small>
+                    <small>Express</small>
+                    <small>MongoDB</small>
+                  </div>
+                {/* </div> */}
+              </div>
+            </div>
+
+
             <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">
@@ -30,7 +58,7 @@ export default function Projects({ id }) {
                 </a>
                 {/* <img class="card-img-top" src={beat_switch} alt="Card cap" draggable="false"/> */}
                 <div class="card-body text-dark">
-                  <p class="card-text">A web app providing DJs with the tools to build a well-arranged tracklist. View in-depth track metrics including popularity and energy. Get recomendations on which song to play next based on tempo and genre.</p>
+                  <p class="card-text">BeatSwitch is a personal project I created to assist me when digitally mixing music. The web app provides DJs with the tools to build a well-arranged tracklist. Users can view in-depth track metrics including popularity and energy, as well as get recomendations on which song to play next based on tempo and genre. (Click on the image to visit!)</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <small>Spotify Web API</small>
@@ -40,29 +68,7 @@ export default function Projects({ id }) {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
-              <div class="card bg-secondary mt-4">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="card-header d-flex justify-content-center">
-                      <h4>CoffeeRun</h4>
-                    </div>
-                    <a href="https://github.com/seantan22/CoffeeRun" target="_blank" rel="noopener noreferrer">
-                      <div class="fab fa-github fa-lg mb-2 ml-5"/>
-                    </a>
-                </div>
-                {/* <button class="btn btn-outline-secondary mb-2" type="button" data-toggle="collapse" data-target="#learnMoreCoffeeRun" aria-expanded="false" aria-controls="learnMorePortfolioSite"><i class="fas fa-angle-double-down"></i></button> */}
-                <img class="card-img-top" src={coffee_run} alt="Card cap"></img>
-                {/* <div class="collapse multi-collapse" id="learnMoreCoffeeRun"> */}
-                  <div class="card-body text-dark">
-                    <p class="card-text">A web app for simple and convenient coffee runs. Order a beverage and have it delivered directly to your seat on campus. Earn points by retrieving beverages for your study buddies. [Mobile version coming soon!].</p>
-                  </div>
-                  <div class="card-footer d-flex justify-content-around">
-                    <small>Ruby on Rails</small>
-                    <small>Heroku Postgres</small>
-                  </div>
-                {/* </div> */}
-              </div>
-            </div>
+            
             <div class="col-md-6 col-xl-4" data-aos="flip-right" data-aos-duration="1000">
               <div class="card bg-secondary mb-3 mt-4">
                 <div class="row d-flex justify-content-center align-items-center">

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, animateScroll as scroll } from "react-scroll";
 import navlogo from "./images/navlogo.png";
-import resume from "../docs/SeanTanResume.pdf";
+import resume from "../docs/SeanTanResume21.pdf";
 
 export default class NavBar extends React.Component {
     scrollToTop = () => {

@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.97dd2b97.chunk.css",
-    "main.js": "/static/js/main.655aa961.chunk.js",
-    "main.js.map": "/static/js/main.655aa961.chunk.js.map",
+    "main.js": "/static/js/main.cb402fa9.chunk.js",
+    "main.js.map": "/static/js/main.cb402fa9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.07462ba3.js",
     "runtime-main.js.map": "/static/js/runtime-main.07462ba3.js.map",
     "static/css/2.4707e12a.chunk.css": "/static/css/2.4707e12a.chunk.css",
-    "static/js/2.0d29b434.chunk.js": "/static/js/2.0d29b434.chunk.js",
-    "static/js/2.0d29b434.chunk.js.map": "/static/js/2.0d29b434.chunk.js.map",
+    "static/js/2.25782c7e.chunk.js": "/static/js/2.25782c7e.chunk.js",
+    "static/js/2.25782c7e.chunk.js.map": "/static/js/2.25782c7e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.647375934c4b61cf52d34f289948da47.js": "/precache-manifest.647375934c4b61cf52d34f289948da47.js",
+    "precache-manifest.04d3ec7349cd65740dba8ea0814d0062.js": "/precache-manifest.04d3ec7349cd65740dba8ea0814d0062.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.97dd2b97.chunk.css.map": "/static/css/main.97dd2b97.chunk.css.map",
-    "static/js/2.0d29b434.chunk.js.LICENSE.txt": "/static/js/2.0d29b434.chunk.js.LICENSE.txt",
-    "static/media/SeanTanResume.pdf": "/static/media/SeanTanResume.bd876b04.pdf",
+    "static/js/2.25782c7e.chunk.js.LICENSE.txt": "/static/js/2.25782c7e.chunk.js.LICENSE.txt",
+    "static/media/SeanTanResume21.pdf": "/static/media/SeanTanResume21.6e056f91.pdf",
     "static/media/beatswitch_demo.mp4": "/static/media/beatswitch_demo.76122b70.mp4",
     "static/media/box_sim.mp4": "/static/media/box_sim.bfec7cf9.mp4",
     "static/media/cnn_asl_recognition_pic.png": "/static/media/cnn_asl_recognition_pic.c034cb35.png",
+    "static/media/coffee_run.png": "/static/media/coffee_run.ff1c51c8.png",
     "static/media/deep_learning_cert.png": "/static/media/deep_learning_cert.bbe5b559.png",
     "static/media/eth_pos_demo.mp4": "/static/media/eth_pos_demo.0f4e73e8.mp4",
     "static/media/navlogo.png": "/static/media/navlogo.31e04381.png",
@@ -27,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.07462ba3.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.0d29b434.chunk.js",
+    "static/js/2.25782c7e.chunk.js",
     "static/css/main.97dd2b97.chunk.css",
-    "static/js/main.655aa961.chunk.js"
+    "static/js/main.cb402fa9.chunk.js"
   ]
 }

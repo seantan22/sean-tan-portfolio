@@ -3,6 +3,7 @@ import cnn_asl_recog from "./images/cnn_asl_recognition_pic.png"
 import box_sim from "./images/box_sim.mp4"
 import eth_pos_demo from "./images/eth_pos_demo.mp4"
 import beatswitch_demo from "./images/beatswitch_demo.mp4"
+import coffeerun_demo from "./images/CoffeeRun Demo 1.0.mp4"
 // import beat_switch from "./images/beat_switch1.png"
 import coffee_run from "./images/coffee_run.png"
 
@@ -24,9 +25,9 @@ export default function Projects({ id }) {
                       <div class="fab fa-github fa-lg mb-2 ml-5"/>
                     </a>
                 </div>
-                {/* <button class="btn btn-outline-secondary mb-2" type="button" data-toggle="collapse" data-target="#learnMoreCoffeeRun" aria-expanded="false" aria-controls="learnMorePortfolioSite"><i class="fas fa-angle-double-down"></i></button> */}
-                <img class="card-img-top" src={coffee_run} alt="Card cap"></img>
-                {/* <div class="collapse multi-collapse" id="learnMoreCoffeeRun"> */}
+                <video class="card-img-top" loop="true" muted autoplay="autoplay">
+                  <source src={coffeerun_demo} type="video/mp4"></source>
+                </video>
                   <div class="card-body text-dark">
                     <p class="card-text">During Summer 2020, I co-founded CoffeeRun, a beverage delivery service that allows students to order drinks right to their seat in the library, or deliver drinks to other students for cash. The iOS application handles orders, deliveries and transactions, while also supporting the ability to add friends and message. The app is currently being beta tested by 50 students at McGill and under consideration for the McGill TechAccel grant.</p>
                   </div>

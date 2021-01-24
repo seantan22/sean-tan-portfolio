@@ -8,7 +8,9 @@ export default class Jobs extends React.Component {
         this.state = {
             currentTab: 0,
             data: [
-            { id: "1", job: "Snowdrop Architecture" , title: "Software Intern ", year: "January 2020 - Present",  
+            { id: "1", job: "Ericsson" , title: "Full-Stack Software Developer Intern ", year: "January 2021 - Present",  
+                desc: "Contributing to Theia, an open-source cloud and desktop integrated development environment (IDE) framework. Utilizing Typescript and Node.js to improve overall user experience, implement new features, and fix issues & bugs. Collaborating closely with the Theia development team using agile scrum methodologies (Daily scrum meetings, Kanban, Jira).  ", link: "https://theia-ide.org/"},
+            { id: "2", job: "Snowdrop Architecture" , title: "Software Intern ", year: "January 2020 - Present",  
                 desc: "Designing a sustainable tiny-home fully equipped with home automation features to track energy and resource usage.  ", link: "https://www.snowdroparch.com/home"},
             { id: "2", job: "Blockchain at McGill" , title: "Software Design Team ", year: "October 2019 - June 2020", 
                 desc: "Created a point-of-sale terminal enabling vendors to accept Ether or ERC-20 Tokens with a 90% success rate by writing Solidity smart contracts for the Ethereum blockchain. Optimized user experience by reducing task completion time by 20% through my design of an 8-page frontend user-interface using React and Bootstrap.", link: "http://blockchainmcgill.com/"},

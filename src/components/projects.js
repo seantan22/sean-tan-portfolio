@@ -80,11 +80,13 @@ export default function Projects({ id }) {
                       <div class="fab fa-github fa-lg mb-2 ml-5"/>
                     </a>
                 </div>
+                <a href="https://ethpos-frontend.herokuapp.com/">
                 <video class="card-img-top" loop="true" muted autoplay="autoplay">
                   <source src={eth_pos_demo} type="video/mp4"></source>
                 </video>
+                </a>
                 <div class="card-body text-dark">
-                  <p class="card-text">A web app for vendors to accept Ether or ERC-20 Token instantaneously. Pay using your mobile wallet, receive real-time USD-to-ETH conversion rates and send transactions over the Ethereum blockchain. </p>
+                  <p class="card-text">A web app for vendors to accept Ether or ERC-20 Token instantaneously. Pay using your mobile wallet, receive real-time USD-to-ETH conversion rates and send transactions over the Ethereum blockchain. (Click on the image to visit!) </p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <small>Solidity</small>

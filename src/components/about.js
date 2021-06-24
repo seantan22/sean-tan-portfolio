@@ -15,9 +15,9 @@ export default function About({ id }) {
             <p class="mt-5 d-flex justify-content-end">GPA: 3.29/4.00</p>
           </div>
           <div class="col-md-6 col-lg-5" data-aos="fade-left" data-aos-duration="500">
-            <h6 class="mt-3">Hello! I'm Sean, a fourth-year student at McGill University.</h6>
-            <h6>I'm an aspiring software engineer with over four years of programming and computer science experience. I specialize in using Python, C, Java, and Javascript to produce work that is creative, innovative and distinct.</h6>
-            <h6>My goal is to use my software development skills to make impactful contributions in the fields of deep learning, IoT, and web & mobile development.</h6>
+            <h6 class="mt-3">Hello! I'm Sean, a senior at McGill University.</h6>
+            <h6>I'm an aspiring software engineer with over four years of programming and computer science experience. I specialize in using Golang, Python, Java, and Javascript to produce work that is creative, innovative and distinct.</h6>
+            <h6>My goal is to leverage my software development skills to create impactful applications and products that improve our quality of life.</h6>
             <h6>Off screen, you'll find me participating in a variety of up-tempo activities like playing lacrosse for McGill's varsity team, designing sustainable tiny-homes and digitaly mixing music.</h6>
           </div>
           <div class="col-sm-8 col-md-6 col-lg-3" data-aos="fade-left" data-aos-duration="500">

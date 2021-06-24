@@ -9,12 +9,10 @@ export default class Jobs extends React.Component {
             currentTab: 0,
             data: [
             { id: "1", job: "Particle Health" , title: "Software Engineer Intern ", year: "May 2021 - Present",  
-                desc: "API", link: "https://www.particlehealth.com/"},
+                desc: "Contributing to API products enabling clients to securely and conveniently access patient health data across the United States. Currently utilizing Golang paired with Google Cloud Platform services to implement metrics gathering and logging tools in the main API, with the objective of enabling both internal administrators and external clients to view API customer usage patterns.", link: "https://www.particlehealth.com/"},
             { id: "2", job: "Ericsson" , title: "Software Developer Intern ", year: "January 2021 - April 2021",  
                 desc: "Contributed to Theia, an open-source cloud and desktop integrated development environment (IDE) framework. Utilized Typescript and Node.js to improve overall user experience, implement new features, and fix issues & bugs. Collaborating closely with the Theia development team using agile scrum methodologies (Daily scrum meetings, Kanban, Jira).  ", link: "https://theia-ide.org/"},
-            { id: "3", job: "Snowdrop Architecture" , title: "Software Intern ", year: "January 2020 - Present",  
-                desc: "Designing a sustainable tiny-home fully equipped with home automation features to track energy and resource usage.  ", link: "https://www.snowdroparch.com/home"},
-            { id: "4", job: "Blockchain at McGill" , title: "Software Design Team ", year: "October 2019 - June 2020", 
+            { id: "3", job: "Blockchain at McGill" , title: "Software Design Team ", year: "October 2019 - June 2020", 
                 desc: "Created a point-of-sale terminal enabling vendors to accept Ether or ERC-20 Tokens with a 90% success rate by writing Solidity smart contracts for the Ethereum blockchain. Optimized user experience by reducing task completion time by 20% through my design of an 8-page frontend user-interface using React and Bootstrap.", link: "http://blockchainmcgill.com/"},
             ]
         };

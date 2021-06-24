@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7dd9541eb0192db218b464ba20887a5",
+    "revision": "0efc01222aa43e89228406bdc5494caf",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "6f60beb5b62561800459",
+    "revision": "74ec07d6f9f85d13287d",
     "url": "/static/css/main.97dd2b97.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.ab5a5628.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f60beb5b62561800459",
-    "url": "/static/js/main.e83043dc.chunk.js"
+    "revision": "74ec07d6f9f85d13287d",
+    "url": "/static/js/main.1b25e16b.chunk.js"
   },
   {
     "revision": "eb8208a7b3505f1fc511",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/CoffeeRun Demo 1.0.76a88870.mp4"
   },
   {
-    "revision": "d8dfd1d5d7254e51de17973daf860ec7",
-    "url": "/static/media/Sean Tan Resume.d8dfd1d5.pdf"
+    "revision": "2a4e4135aa44ee6f1f9a842e45c4f755",
+    "url": "/static/media/Sean Tan Resume.2a4e4135.pdf"
   },
   {
     "revision": "76122b70ad287507c56ef84cebc9ff55",

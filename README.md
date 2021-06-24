@@ -1,4 +1,4 @@
 # Sean Tan Portfolio
 
-### Visit now at https://seantan.software !
+### Visit now at https://seantan.tech !
 

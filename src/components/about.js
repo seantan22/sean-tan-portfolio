@@ -12,7 +12,7 @@ export default function About({ id }) {
             <p class="d-flex justify-content-end">September 2017 - May 2022</p>
             <h5 class="mt-5 d-flex justify-content-end"><i>Bachelor of Software Engineering</i></h5>
             <h5 class="d-flex justify-content-end"><i>Minor: Aerospace Engineering</i></h5>
-            <p class="mt-5 d-flex justify-content-end">GPA: 3.29/4.00</p>
+            <p class="mt-5 d-flex justify-content-end">GPA: 3.40/4.00</p>
           </div>
           <div class="col-md-6 col-lg-5" data-aos="fade-left" data-aos-duration="500">
             <h6 class="mt-3">Hello! I'm Sean, a senior at McGill University.</h6>
